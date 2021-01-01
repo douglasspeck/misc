@@ -116,6 +116,81 @@
                 <p>Habilidades/Mediadores Internos</p>
             </section>
         </section>
+        <section>
+            <h2>Avaliação Educacional e Mercado Editorial</h2>
+            <section>
+                <h3>A Palestrante</h3>
+                <p><strong>Nome:</strong> Julia</p>
+                <p><strong>Linkedin:</strong> juliaqueiroz1</p>
+                <p><strong>E-mail:</strong> juliaqueiroz@gmail.com</p>
+                <ul>
+                    <p><strong>Atribuições:</strong></p>
+                    <li>Pós-graduação <i lang="la">lattu sensu</i></li>
+                    <li>Presidente-Fundadora da Delta Jr</li>
+                    <li>Fundadora da Sepromat</li>
+                    <li>PAD</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Avaliação Educacional</h3>
+                <ul>
+                    <p><strong>Tipos de Avaliação:</strong></p>
+                    <li>Avaliação da Aprendizagem de Sala de Aula (avaliações regulares em sala de aula)</li>
+                    <li>Avaliação Externa em Larga Escala (vestibulares e provas reguladoras, como a SARESP)</li>
+                    <li>Avaliação Institucional (avaliação interna da escola)</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Mercado Editorial</h3>
+                <ul>
+                    <li>EdTechs e Editoras de Avaliação
+                        <ul>
+                            <li>Times de Avaliação: Produzem as avaliações educacionais a partir do currículo</li>
+                        </ul>
+                    </li>
+                    <li>Editoras de Material Didático
+                        <ul>
+                            <li>Times de Currículo: Definem os conteúdos e habilidades a serem desenvolvidos</li>
+                            <li>Times de Conteúdo: Produzem os materiais didáticos a partir do currículo</li>
+                        </ul>
+                    </li>
+                    <li>Sistemas e Redes de Ensino
+                        <ul>
+                            <li>Sistemas são redes grandes, apostiladas</li>
+                            <li>Times de Currículo, Avaliação e Conteúdo</li>
+                        </ul>
+                    </li>
+                </ul>
+                <section>
+                    <h4>O que faz alguém que trabalha com conteúdo?</h4>
+                    <ul>
+                        <li>Elaboração de material didático
+                            <ul>
+                                <li>livro</li>
+                                <li>apostila</li>
+                                <li>ebook</li>
+                            </ul>
+                        </li>
+                        <li>Elaboração de material audiovisual (vídeos)</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <h3>Como se destacar?</h3>
+                <ul>
+                    <li>Instituto Casagrande</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Dicas de Currículo</h3>
+                <ul>
+                    <li>BNCC</li>
+                    <li>Currículo Estadual Paulista</li>
+                    <li>Matriz de referência do SAEB/Enem</li>
+                    <li>Taxonomia de Bloom</li>
+                </ul>
+            </section>
+        </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>
