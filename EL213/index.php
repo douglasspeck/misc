@@ -24,7 +24,18 @@
         </header>
         <section>
             <h2>Aula 1: Introdução</h2>
-            <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a>
+            <section>
+                <h3>Sinais Estudados</h3>
+                <h4>Apresentação</h4>
+                <ul>
+                    <li>olá</li>
+                    <li>nome</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <h2>Aula 2: O surdo e a surdez</h2>
+            <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
         </section>
     </main>
     <?php include '../PHP/scrypts.php' ?>
