@@ -98,5 +98,4 @@
 
 #menu .menu:hover, #menu .menu:focus {
     height: calc(var(--x) * 5);
-    background-color: #1dc8cd6d;
 }
