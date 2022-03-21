@@ -13,8 +13,8 @@
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
             <!-- SEO -->
-            <meta name="author" content="Projeto Go Big">
-            <meta name="description" content="Site Oficial do Projeto Go Big">
+            <meta name="author" content="Douglas Speck">
+            <meta name="description" content="Registros pessoais do curso de Licenciatura em Matemática na Unicamp">
             <meta name="keywords" content="' . $keywords . '">
             <link rel="canonical" href="' . $link . '">
 

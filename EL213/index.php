@@ -36,6 +36,18 @@
         <section>
             <h2>Aula 2: O surdo e a surdez</h2>
             <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
+            <section>
+                <h3>Surdo ou deficiente auditivo?</h3>
+            </section>
+            <section>
+                <h3>Aspectos biológicos da surdez</h3>
+                <ul>
+                    <li>O pavilhão auditivo concentra as ondas sonoras em direção ao canal auditivo</li>
+                    <li>O som passa pelo canal auditivo e faz vibrar a membrana timpânica</li>
+                    <li>Essa membrana movimenta os ossículos que transmitem o movimento para a cóclea</li>
+                    <li>A cóclea transforma a vibração mecânica em impulsos elétricos</li>
+                </ul>
+            </section>
         </section>
     </main>
     <?php include '../PHP/scrypts.php' ?>
