@@ -1,0 +1,102 @@
+#menu {
+    background-color: var(--a1);
+    width: calc(var(--x) * 30);
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: calc(var(--x) * -30);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+#menu.open {
+    transform: translateX(calc(var(--x) * 30));
+}
+
+#menu-tag {
+    background-color: inherit;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    width: calc(var(--x) * 6);
+    height: calc(var(--x) * 5);
+    border-radius: 0 calc(var(--x) * 5) calc(var(--x) * 5) 0;
+    transform: translateX(calc(var(--x) * 5));
+    cursor: pointer;
+}
+
+#menu-tag > .h-bar {
+    display: block;
+    width: 40%;
+    height: 5px;
+    background-color: #fff;
+    transition: all 1s ease-in-out;
+}
+
+#menu-tag > .h-bar:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+#menu.open #menu-tag > .h-bar {
+    transform: rotate(45deg);
+}
+
+#menu.open #menu-tag > .h-bar:first-of-type {
+    transform: rotate(-45deg) translateX(-22.5%) translateY(140%);
+}
+
+#menu.open #menu-tag > .h-bar:last-of-type {
+    transform: rotate(-45deg) translateX(22.5%) translateY(-140%);
+}
+
+#menu > *:not(#menu-tag) {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu > a {
+    height: 15vh;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    color: inherit;
+}
+
+#menu > nav {
+    max-height: 85vh;
+    min-height: calc(30 * var(--x));
+    padding-bottom: 4vh;
+}
+
+#menu .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(var(--x) * 3);
+    width: 70%;
+    color: var(--g0);
+    background-color: #fff;
+    border-radius: calc(var(--x) * 1);
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+#menu .menu:hover, #menu .menu:focus {
+    height: calc(var(--x) * 5);
+    background-color: #1dc8cd6d;
+}

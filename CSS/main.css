@@ -1,0 +1,271 @@
+:root {
+    --x: calc(0.5vw + 0.5vh);
+    --a1: #ff003d;
+    --a2: #ff809e;
+    --a3: #ffe5eb;
+    --b1: #3d00ff;
+    --g0: #222222;
+    --g1: #666666;
+    --g2: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: 'Open Sans', sans-serif;
+    z-index: inherit;
+    font-size: inherit;
+    color: var(--g0);
+}
+
+html, body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--g2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--b1);
+}
+
+p, li {
+    text-align: justify;
+    hyphens: auto;
+    margin-top: 0.5em;
+}
+
+main {
+    --pad: 5vh;
+    width: calc(40vw - 2 * var(--pad));
+    height: calc(90vh - 2 * var(--pad));
+    padding: var(--pad);
+    position: absolute;
+    top: 5vh;
+    left: calc(30vw);
+    overflow: auto;
+    scroll-behavior: auto;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--a3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--a1);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--a1);
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    color: var(--a2);
+}
+
+li {
+    margin-left: 2em;
+}
+
+li::marker {
+    color: var(--a1);
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+.tag {
+    display: inline;
+    font-size: 0.5em;
+    background-color: var(--b1);
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.teacher > summary, .author > summary {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--a1);
+    padding: 3px 5px;
+    max-width: 70%;
+    border-radius: 5px;
+    transition: border-radius 0.3s;
+}
+
+.teacher > summary::before, .author > summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.teacher:not([open]) > summary::before, .author:not([open]) > summary::before {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in;
+}
+
+.teacher[open] > summary::before, .author[open] > summary::before {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in;
+}
+
+.teacher[open] > summary, .author[open] > summary {
+    border-radius: 5px 5px 0 0;
+}
+
+.teacher > .details-content, .author > .details-content {
+    background-color: var(--a3);
+    font-size: 0.8em;
+    padding: 10px 12px;
+    border-radius: 0 5px 5px 5px;
+}
+
+.teacher[open] > .details-content, .author[open] > .details-content {
+    animation: scaleY 0.3s 1 forwards;
+}
+
+.teacher > .details-content > :first-child, .author > .details-content > :first-child {
+    margin: 0;
+}
+
+hr {
+    width: 90%;
+    margin: 1.5em auto;
+}
+
+blockquote {
+    background-color: var(--a3);
+}
+
+blockquote > p:first-of-type:before, blockquote > p:last-of-type:after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote.high-quote {
+    background: transparent;
+    font-size: 1.5em;
+    color: var(--a1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+blockquote.high-quote::before, blockquote.high-quote::after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.duvida {
+    background-color: yellow;
+    color: #000;
+}
+
+.person {
+    display: inline;
+    font-weight: bold;
+    color: var(--a1);
+    position: relative;
+}
+
+.person:hover {
+    color: #fff;
+    background-color: var(--a2);
+}
+
+.person-card {
+    display: none;
+    width: calc(160px - 1em);
+    height: calc(90px - 1em);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(1.5rem);
+    background-color: var(--a3);
+    font-weight: normal;
+    font-size: 0.8em;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+
+.person-card > * {
+    display: none;
+}
+
+.person:hover > .person-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+.person:hover > .person-card > * {
+    display: block;
+}
+
+.person-card:hover {
+    width: 200px;
+    height: 112.5px;
+}
+
+.person-card > img {
+    width: calc(100%);
+    height: calc(100%);
+}
+
+.person-card > .person-description {
+    height: 100%;
+    width: calc(100% - 1em);
+    overflow-y: auto;
+    padding-right: 1em;
+}
+
+@keyframes scaleY {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(100%);
+    }
+}
