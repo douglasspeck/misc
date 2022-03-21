@@ -17,6 +17,7 @@
     z-index: inherit;
     font-size: inherit;
     color: var(--g0);
+    hyphens: auto;
 }
 
 html, body {
@@ -36,7 +37,6 @@ a {
 
 p, li {
     text-align: justify;
-    hyphens: auto;
     margin-top: 0.5em;
 }
 
@@ -81,6 +81,7 @@ section {
 
 h1 {
     font-size: 2em;
+    display: inline;
 }
 
 h2 {
@@ -109,7 +110,7 @@ ol > li::marker {
 }
 
 .tag {
-    display: inline;
+    display: inline-block;
     font-size: 0.5em;
     background-color: var(--b1);
     color: #fff;

@@ -12,7 +12,7 @@
         <header>
             <h1>
                 <span class="tag">EL213</span>
-                Libras e Ensino de Surdos
+                <span class="subject">Libras e Ensino de Surdos</span>
             </h1>
             <details class="teacher">
                 <summary>Professora Aryane Santos Nogueira</summary>
@@ -20,7 +20,6 @@
                     <p>Doutora em Linguística Aplicada na área de Multiculturalismo, Plurilinguismo e Educação Bilíngue.<br>Formada em fonoaudiologia, especializada em surdez, especializada em educação de surdos</p>
                 </div>
             </details>
-            <h2 class="aux">PADs:</h2>
         </header>
         <section>
             <h2>Aula 1: Introdução</h2>
