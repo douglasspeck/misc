@@ -1,7 +1,7 @@
 <?php
 
     $pages = [
-        ['Home', '/', 'Página Inicial'],
+        ['Home', '', 'Página Inicial'],
         ['EL213', 'EL213/', 'Libras e Educação de Surdos'],
         ['EL683', 'EL683/', 'Escola e Cultura'],
         ['MA104', 'MA104/', 'Seminários sobre o Ensino da Matemática'],
