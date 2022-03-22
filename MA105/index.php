@@ -34,7 +34,7 @@
         </section>
         <section>
             <h2>Teoria de Conjuntos</h2>
-            <p>Um<dfn>Conjunto</dfn> é uma coleção de objetos <strong>bem definfidos</strong> chamados de membros ou elementos.</p>
+            <p>Um <dfn>Conjunto</dfn> é uma coleção de objetos <strong>bem definfidos</strong> chamados de membros ou elementos.</p>
             <p>Conjuntos são denotados por letras maiúsculas.</p>
         </section>
         <section>
