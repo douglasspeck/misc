@@ -18,7 +18,7 @@
                 <summary>Professor Marcelo Firer</summary>
                 <div class="details-content">
                     <p></p>
-                    <p><strong>E-mail:</strong><a href="mailto:mfirer@unicamp.br" target="_blank">mfirer@unicamp.br</a></p>
+                    <p><strong>E-mail:</strong> <a href="mailto:mfirer@unicamp.br" target="_blank">mfirer@unicamp.br</a></p>
                     <p><strong>Sala:</strong> 312</p>
                 </div>
             </details>

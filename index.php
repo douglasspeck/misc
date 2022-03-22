@@ -12,7 +12,7 @@
         <header>
             <h1>
                 <span class="tag">029</span>
-                <span class="course"><abbr title="Licenciatura">Lic.</abbr> em Matemática</span>
+                <span class="course"><abbr title="Licenciatura">Lic.</abbr> em Matemática</span>
             </h1>
             <details class="teacher">
                 <summary>Mentor Marcos Murguel</summary>

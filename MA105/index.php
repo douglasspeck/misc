@@ -33,7 +33,18 @@
             </ul>
         </section>
         <section>
-            <h2>Aula 01</h2>
+            <h2>Teoria de Conjuntos</h2>
+            <p>Um<dfn>Conjunto</dfn> é uma coleção de objetos <strong>bem definfidos</strong> chamados de membros ou elementos.</p>
+            <p>Conjuntos são denotados por letras maiúsculas.</p>
+        </section>
+        <section>
+            <h2>Funções</h2>
+            Funções são
+            <section>
+                <h3>Enunciado Formal</h3>
+                <p>\( R \subseteq X \times Y \)</p>
+                <p>\(  \)</p>
+            </section>
         </section>
         </main>
     <?php include '../PHP/scrypts.php' ?>

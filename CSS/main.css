@@ -42,12 +42,12 @@ p, li {
 
 main {
     --pad: 5vh;
-    width: calc(40vw - 2 * var(--pad));
+    width: calc(80vw - 2 * var(--pad));
     height: calc(90vh - 2 * var(--pad));
     padding: var(--pad);
     position: absolute;
     top: 5vh;
-    left: calc(30vw);
+    left: calc(10vw);
     overflow: auto;
     scroll-behavior: auto;
     background-color: #fff;
@@ -81,7 +81,6 @@ section {
 
 h1 {
     font-size: 2em;
-    display: inline;
 }
 
 h2 {
