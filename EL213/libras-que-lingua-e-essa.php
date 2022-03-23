@@ -41,7 +41,7 @@
             <h2>Introdução</h2>
             <blockquote>
                 <p>Nenhuma opinião, verdadeira ou falsa, mas contrária à opinião dominante e geral, estabeleceu-se no mundo instantaneamente e com base numa demonstração lúcida e palpável, mas à força de repetições e, portanto, de hábito.</p>
-                <cite>(Leopardi)</cite>
+                <cite>Leopardi</cite>
             </blockquote>
             <p><abbr title="Língua Brasileira de Sinais">Libras</abbr> é uma <strong>questão alheia</strong> para a maioria das pessoas e, por isso, o diálogo a respeito da mesma torna-se um discurso repetitivo. Ainda assim, esse diálogo é importante para obter a <strong>legitimação</strong> da Libras através da visibilidade.</p>
             <p>Um aspecto importante é a dissociação entre surdez e lacunas cognitivas. O ideal é encararmos a surdez como uma diferença lingúistica e cultural (o que ela, de fato, é). Se não tratamos estrangeiros como "incapazes", por que deveríamos fazer isso com surdos?</p>
@@ -89,7 +89,7 @@
                 </section>
                 <section>
                     <h4>Marcadores não manuais</h4>
-                    <p>Além dos parâmetros de sinalização, há um uso extensivo de <strong>marcadores não manuais</strong>. Diferente das línguas orais, onde entonação, velocidade, expressões faciais, entre outros, são traços <strong>paralinguísticos</strong>, nas línguas de sinais as expressões faciais e corporais são <strong>elementos gramaticais</strong> que compõem a estrutura da língua. Nesse caso, podem atuar como um componente lexical, seja <q>uma referência pronominal, uma partícula negativa, um advérbio, um modificador ou uma marca de aspecto.</q> <cite>(Ferreira Brito, 1995:240)</cite>.</p>
+                    <p>Além dos parâmetros de sinalização, há um uso extensivo de <strong>marcadores não manuais</strong>. Diferente das línguas orais, onde entonação, velocidade, expressões faciais, entre outros, são traços <strong>paralinguísticos</strong>, nas línguas de sinais as expressões faciais e corporais são <strong>elementos gramaticais</strong> que compõem a estrutura da língua. Nesse caso, podem atuar como um componente lexical, seja <q>uma referência pronominal, uma partícula negativa, um advérbio, um modificador ou uma marca de aspecto.</q> <cite>Ferreira Brito, 1995:240</cite>.</p>
                 </section>
                 <section>
                     <h4>Semelhanças entre as línguas orais e de sinais</h4>
@@ -213,14 +213,14 @@
             <h2>Capítulo 2 – O surdo</h2>
             <blockquote>
                 <p>É muito natural. Alguns ouvem com mais prazer com os olhos do que com os ouvidos. Eu ouço com os olhos.</p>
-                <cite>(Gertrude Stein, surda alemã, 1969)</cite>
+                <cite>Gertrude Stein, surda alemã, 1969</cite>
             </blockquote>
             <section>
                 <h3>Surdo, surdo-mudo ou deficiente auditivo?</h3>
                 <p>A surdez não possui relação de causalidade com a mudez, portanto a terminologia 'surdo-mudo' é, obviamente, incorreta.</p>
                 <blockquote>
                     <p>Sinceramente nada me falta, é a sociedade que me torna excepcional.</p>
-                    <cite>(Laborrit, 1994)</cite>
+                    <cite>Laborrit, 1994</cite>
                 </blockquote>
                 <p>Quero destacar que eu separei essa citação acima antes mesmo de ler o trecho em que a autora destaca a mesma, tamanho foi seu peso na minha leitura.</p>
             </section>
@@ -300,7 +300,7 @@
                 <p>O discurso médico é supervalorizado de maneira geral, enquanto o discurso linguístico (mesmo se considerarmos apenas dentro do meio oral) é desvalorizado. Esse contraste reforça muito mais o estigma de que a surdez é uma anormalidade, uma infelicidade, ao invés de uma diferença.</p>
                 <blockquote>
                     <p>todo o processo de normalização é homogeneizador, ou seja, visa trazer cada elemento desviante para o espaço igualitário da norma.</p>
-                    <cite>(Souza, 2002:138)</cite>
+                    <cite>Souza, 2002:138</cite>
                 </blockquote>
             </section>
             <section>

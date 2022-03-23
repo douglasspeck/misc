@@ -33,9 +33,9 @@
 
                 echo '"';
 
-                if ($pages[$i][2] !== '') { echo ' title="' . $pages[$i][2] . '"'; }
+                if ($pages[$i][0] !== '') { echo ' title="' . $pages[$i][0] . '"'; }
 
-                echo '>' . $pages[$i][0] . '</a>';
+                echo '>' . $pages[$i][2] . '</a>';
 
             };
     

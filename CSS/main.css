@@ -108,6 +108,11 @@ ol > li::marker {
     font-weight: bold;
 }
 
+abbr {
+    color: inherit;
+    text-decoration: underline solid 2px;
+}
+
 .tag {
     display: inline-block;
     font-size: 0.5em;
@@ -195,6 +200,9 @@ blockquote.high-quote::before, blockquote.high-quote::after {
     margin: 0;
     padding: 0;
 }
+
+cite::before { content: '(' }
+cite::after { content: ')' }
 
 .duvida {
     background-color: yellow;

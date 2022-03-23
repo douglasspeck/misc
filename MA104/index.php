@@ -31,7 +31,7 @@
                 <ul>
                     <li><abbr title="Exame Nacional de Desempenho dos Estudantes">ENADE</abbr>
                         <ul>
-                            <li><q>A <abbr title="Universidade de São Paulo">USP</abbr>, babaca, não faz ENADE!</q><cite>(Firer)</cite></li>
+                            <li><q>A <abbr title="Universidade de São Paulo">USP</abbr>, babaca, não faz ENADE!</q><cite>Firer</cite></li>
                         </ul>
                     </li>
                     <li><abbr title="Sistema de Avaliação de Rendimento Escolar do Estado de São Paulo">SARESP</abbr></li>
@@ -51,10 +51,10 @@
         <section>
             <h2>Citações Aleatórias</h3>
             <ul>
-                <li><q>Mais útil é o que as pessoas utilizam mais</q> <cite>(Firer)</cite></li>
-                <li><q>Tem muita coisa que é importante, mas não é útil</q> <cite>(Firer)</cite></li>
-                <li><q>O único jeito de formar 20% de bons alunos é ensinar 100%</q> <cite>(Firer)</cite></li>
-                <li><q>Ninguém vai à academia para ser o melhor levantador de peso</q> <cite>(Desconhecido)</cite></li>
+                <li><q>Mais útil é o que as pessoas utilizam mais</q> <cite>Firer</cite></li>
+                <li><q>Tem muita coisa que é importante, mas não é útil</q> <cite>Firer</cite></li>
+                <li><q>O único jeito de formar 20% de bons alunos é ensinar 100%</q> <cite>Firer</cite></li>
+                <li><q>Ninguém vai à academia para ser o melhor levantador de peso</q> <cite>Desconhecido</cite></li>
             </ul>
         </section>
         </main>

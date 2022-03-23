@@ -43,7 +43,7 @@
             <section>
                 <h3>Enunciado Formal</h3>
                 <p>\( R \subseteq X \times Y \)</p>
-                <p>\(  \)</p>
+                <p>\( A =  \)</p>
             </section>
         </section>
         </main>
