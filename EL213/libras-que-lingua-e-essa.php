@@ -14,7 +14,7 @@
                 <span class="tag">Livro</span>
                 Libras? que língua é essa?
             </h1>
-            <details class="author">
+            <details class="header-details">
                 <summary>Professora Audrei Gesser</summary>
                 <div class="details-content">
                     <p>Mestra em letras/inglês pela Universidade Federal de Santa Catarina (UFSC). Doutora em linguística aplicada na área de educação bilíngue pela UNICAMP.</p>

@@ -14,7 +14,7 @@
                 <span class="tag">EL213</span>
                 <span class="subject">Libras e Ensino de Surdos</span>
             </h1>
-            <details class="teacher">
+            <details class="header-details">
                 <summary>Professora Aryane Santos Nogueira</summary>
                 <div class="details-content">
                     <p>Doutora em Linguística Aplicada na área de Multiculturalismo, Plurilinguismo e Educação Bilíngue.<br>Formada em fonoaudiologia, especializada em surdez, especializada em educação de surdos</p>

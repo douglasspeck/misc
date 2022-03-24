@@ -7,7 +7,8 @@
         ['MA104', 'MA104/', 'Seminários sobre o Ensino da Matemática'],
         ['MA105', 'MA105/', 'Matemática Elementar'],
         ['MA141', 'MA141/', 'Geometria Analítica e Vetores'],
-        ['MA148', 'MA148/', 'Fundamentos da Matemática']
+        ['MA148', 'MA148/', 'Fundamentos da Matemática'],
+        ['Semana do Professor de Matemática', 'sepromat/', 'SeProMat']
     ];
 
     $active_page = str_replace('.php', '', $_SERVER['REQUEST_URI']);

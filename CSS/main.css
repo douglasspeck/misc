@@ -123,7 +123,7 @@ abbr {
     margin-right: 5px;
 }
 
-.teacher > summary, .author > summary {
+.header-details > summary {
     display: inline-block;
     font-weight: bold;
     color: #fff;
@@ -134,38 +134,38 @@ abbr {
     transition: border-radius 0.3s;
 }
 
-.teacher > summary::before, .author > summary::before {
+.header-details > summary::before {
     content: '▶';
     display: inline-block;
     margin-right: 3px;
 }
 
-.teacher:not([open]) > summary::before, .author:not([open]) > summary::before {
+.header-details:not([open]) > summary::before {
     transform: rotate(0deg);
     transition: transform 0.3s ease-in;
 }
 
-.teacher[open] > summary::before, .author[open] > summary::before {
+.header-details[open] > summary::before {
     transform: rotate(90deg);
     transition: transform 0.3s ease-in;
 }
 
-.teacher[open] > summary, .author[open] > summary {
+.header-details[open] > summary {
     border-radius: 5px 5px 0 0;
 }
 
-.teacher > .details-content, .author > .details-content {
+.header-details > .details-content {
     background-color: var(--a3);
     font-size: 0.8em;
     padding: 10px 12px;
     border-radius: 0 5px 5px 5px;
 }
 
-.teacher[open] > .details-content, .author[open] > .details-content {
+.header-details[open] > .details-content {
     animation: scaleY 0.3s 1 forwards;
 }
 
-.teacher > .details-content > :first-child, .author > .details-content > :first-child {
+.header-details > .details-content > :first-child {
     margin: 0;
 }
 

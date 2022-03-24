@@ -14,7 +14,7 @@
                 <span class="tag"></span>
                 <span class="subject"></span>
             </h1>
-            <details class="teacher">
+            <details class="header-details">
                 <summary>Professor</summary>
                 <div class="details-content">
                     <p></p>

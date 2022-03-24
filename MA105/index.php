@@ -14,7 +14,7 @@
                 <span class="tag">MA105</span>
                 <span class="subject">Matemática Elementar</span>
             </h1>
-            <details class="teacher">
+            <details class="header-details">
                 <summary>Professor Mahendra</summary>
                 <div class="details-content">
                     <p></p>

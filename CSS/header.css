@@ -79,7 +79,7 @@
 
 #menu > nav {
     max-height: 85vh;
-    min-height: calc(35 * var(--x));
+    min-height: calc(40 * var(--x));
     padding-bottom: 4vh;
 }
 

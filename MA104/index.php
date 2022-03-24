@@ -14,7 +14,7 @@
                 <span class="tag">MA104</span>
                 <span class="subject">Seminários sobre o ensino de Matemática</span>
             </h1>
-            <details class="teacher">
+            <details class="header-details">
                 <summary>Professor Marcelo Firer</summary>
                 <div class="details-content">
                     <p></p>
