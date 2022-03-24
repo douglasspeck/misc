@@ -22,6 +22,6 @@
             </details>
         </header>
         </main>
-    <?php include '../PHP/scrypts.php' ?>
+    <?php include '../PHP/scripts.php' ?>
 </body>
 </html>

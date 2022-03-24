@@ -58,6 +58,6 @@
             </ul>
         </section>
         </main>
-    <?php include '../PHP/scrypts.php' ?>
+    <?php include '../PHP/scripts.php' ?>
 </body>
 </html>
