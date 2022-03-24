@@ -4,6 +4,7 @@
         $title = 'Semana do Professor de Matemática';
         $keywords = '';
         $resources = [];
+        $pass = true;
         include '../PHP/head.php';
     ?>
 <body>

@@ -20,6 +20,8 @@
 
             <!-- Resources -->';
 
+            if ($pass) {echo '<script src="../JS/password.js"></script>';};
+
             for($i = 0; $i < count($resources); $i++) {
                 if ($resources[$i][0] == 'preload') {
                     echo '
