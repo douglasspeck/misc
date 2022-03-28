@@ -4,7 +4,7 @@
         $title = 'Página não encontrada';
         $keywords = '';
         $resources = [];
-        include '../PHP/head.php';
+        include '/assets/php/head.php';
     ?>
 <body class="error">
     <main>

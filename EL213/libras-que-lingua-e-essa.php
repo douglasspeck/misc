@@ -4,10 +4,10 @@
         $title = 'EL213 – LIBRAS e Ensino de Surdos';
         $keywords = '';
         $resources = [];
-        include '../PHP/head.php';
+        include '/assets/PHP/head.php';
     ?>
 <body>
-    <?php include '../PHP/header.php' ?>
+    <?php include '/assets/PHP/header.php' ?>
     <main>
         <header>
             <h1>
@@ -361,6 +361,6 @@
             </section>
         </section>
     </main>
-    <?php include '../PHP/scripts.php' ?>
+    <?php include '/assets/PHP/scripts.php' ?>
 </body>
 </html>

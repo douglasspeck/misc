@@ -26,7 +26,7 @@
     
             for ($i = 0; $i < count($pages); $i++) {
                 
-                echo '<a href="../' . $pages[$i][1];
+                echo '<a href="/' . $pages[$i][1];
 
                 echo '" class="menu';
 
