@@ -8,6 +8,7 @@ body.error main, body.error h1 {
 
 body.error h1 > .number {
     font-size: 5em;
+    line-height: 4em;
     color: var(--a1);
 }
 
