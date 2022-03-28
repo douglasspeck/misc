@@ -10,8 +10,8 @@
     <main>
         <header>
             <h1>
-                <span class="tag">Erro 404</span>
-                <span class="subject">Página não encontrada</span>
+                <span class="tag">Erro</span>
+                <span class="subject">Página não encontrada (404)</span>
             </h1>
         </header>
         <section>
