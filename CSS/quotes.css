@@ -1,0 +1,29 @@
+blockquote {
+    background-color: var(--a3);
+}
+
+blockquote > p:first-of-type:before, blockquote > p:last-of-type:after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote.high-quote {
+    background: transparent;
+    font-size: 1.5em;
+    color: var(--a1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+blockquote.high-quote::before, blockquote.high-quote::after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+cite::before { content: '(' }
+cite::after { content: ')' }

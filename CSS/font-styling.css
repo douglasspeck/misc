@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: var(--b1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--a1);
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    color: var(--a2);
+}
+
+.upper {
+    text-transform: uppercase;
+}

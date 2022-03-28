@@ -1,0 +1,45 @@
+.header-details > summary {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--a1);
+    padding: 3px 5px;
+    max-width: 70%;
+    border-radius: 5px;
+    transition: border-radius 0.3s;
+}
+
+.header-details > summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.header-details:not([open]) > summary::before {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in;
+}
+
+.header-details[open] > summary::before {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in;
+}
+
+.header-details[open] > summary {
+    border-radius: 5px 5px 0 0;
+}
+
+.header-details > .details-content {
+    background-color: var(--a3);
+    font-size: 0.8em;
+    padding: 10px 12px;
+    border-radius: 0 5px 5px 5px;
+}
+
+.header-details[open] > .details-content {
+    animation: scaleY 0.3s 1 forwards;
+}
+
+.header-details > .details-content > :first-child {
+    margin: 0;
+}

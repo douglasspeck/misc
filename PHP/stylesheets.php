@@ -2,13 +2,13 @@
 
 include 'url.php';
 
-$css = ['main','header'];
+$css = scandir('../CSS');
 
 $mergeCSS = "";
 // Loop the css Array
 foreach ($css as $css_file) {
     // Load the content of the css file
-    $css_file = '../CSS/' . $css_file . '.css';
+    $css_file = '../CSS/' . $css_file;
     $mergeCSS.= file_get_contents($css_file);
 }
 

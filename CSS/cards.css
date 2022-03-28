@@ -1,0 +1,59 @@
+.person {
+    display: inline;
+    font-weight: bold;
+    color: var(--a1);
+    position: relative;
+}
+
+.person:hover {
+    color: #fff;
+    background-color: var(--a2);
+}
+
+.person-card {
+    display: none;
+    width: calc(160px - 1em);
+    height: calc(90px - 1em);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(1.5rem);
+    background-color: var(--a3);
+    font-weight: normal;
+    font-size: 0.8em;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+
+.person-card > * {
+    display: none;
+}
+
+.person:hover > .person-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+.person:hover > .person-card > * {
+    display: block;
+}
+
+.person-card:hover {
+    width: 200px;
+    height: 112.5px;
+}
+
+.person-card > img {
+    width: calc(100%);
+    height: calc(100%);
+}
+
+.person-card > .person-description {
+    height: 100%;
+    width: calc(100% - 1em);
+    overflow-y: auto;
+    padding-right: 1em;
+}
