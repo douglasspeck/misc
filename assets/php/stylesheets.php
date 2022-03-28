@@ -2,13 +2,13 @@
 
 include 'url.php';
 
-$css = scandir('/assets/css');
+$css = scandir('../assets/css');
 
 $mergeCSS = "";
 // Loop the css Array
 foreach ($css as $css_file) {
     // Load the content of the css file
-    $css_file = '/assets/css/' . $css_file;
+    $css_file = '../assets/css/' . $css_file;
     $mergeCSS.= file_get_contents($css_file);
 }
 

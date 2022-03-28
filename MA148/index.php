@@ -4,10 +4,10 @@
         $title = '';
         $keywords = '';
         $resources = [];
-        include '/assets/php/head.php';
+        include '../assets/php/head.php';
     ?>
 <body>
-    <?php include '/assets/php/header.php' ?>
+    <?php include '../assets/php/header.php' ?>
     <main>
         <header>
             <h1>
@@ -22,6 +22,6 @@
             </details>
         </header>
         </main>
-    <?php include '/assets/php/scripts.php' ?>
+    <?php include '../assets/php/scripts.php' ?>
 </body>
 </html>

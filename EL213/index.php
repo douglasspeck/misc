@@ -4,10 +4,10 @@
         $title = 'EL213 – Libras e Ensino de Surdos';
         $keywords = '';
         $resources = [];
-        include '/assets/php/head.php';
+        include '../assets/php/head.php';
     ?>
 <body>
-    <?php include '/assets/php/header.php' ?>
+    <?php include '../assets/php/header.php' ?>
     <main>
         <header>
             <h1>
@@ -67,7 +67,7 @@
                     <ul>
                         <?php
                             $sinais = ['olá','nome', 'idade'];
-                            include '/assets/php/sinais.php';
+                            include '../assets/php/sinais.php';
                         ?>
                     </ul>
                 </section>
@@ -147,7 +147,7 @@
         </section>
         <section>
             <h2>Aula 3: Aspectos da Gramática da Libras</h2>
-            <p>Referência Bibliográfica: <a href="/assets/DOCS" title="Libras – uma introdução – capítulo 4" target="_blank">Aspectos da gramática da Libras</a></p>
+            <p>Referência Bibliográfica: <a href="../assets/DOCS" title="Libras – uma introdução – capítulo 4" target="_blank">Aspectos da gramática da Libras</a></p>
             <ul>
                 <li>Novamente há um relato da história da Língua de Sinais até os dias de hoje.</li>
                 <li>No Brasil, a língua de sinais fora proibida por um tempo e foi oficializada em 2002, tendo sua regulamentação somente em 2005.</li>
@@ -216,6 +216,6 @@
             </section>
         </section>
     </main>
-    <?php include '/assets/php/scripts.php' ?>
+    <?php include '../assets/php/scripts.php' ?>
 </body>
 </html>

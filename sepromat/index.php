@@ -5,10 +5,10 @@
         $keywords = '';
         $resources = [];
         $pass = true;
-        include '/assets/php/head.php';
+        include '../assets/php/head.php';
     ?>
 <body>
-    <?php include '/assets/php/header.php' ?>
+    <?php include '../assets/php/header.php' ?>
     <main>
         <header>
             <h1>
@@ -117,6 +117,6 @@
             </section>
         </section>
         </main>
-    <?php include '/assets/php/scripts.php' ?>
+    <?php include '../assets/php/scripts.php' ?>
 </body>
 </html>

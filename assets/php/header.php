@@ -21,12 +21,12 @@
             <span class="h-bar"></span>
             <span class="h-bar"></span>
         </div>
-        <a href="/" title="Página Inicial">Licenciatura<br>em Matemática</a>
+        <a href="../" title="Página Inicial">Licenciatura<br>em Matemática</a>
         <nav>';
     
             for ($i = 0; $i < count($pages); $i++) {
                 
-                echo '<a href="/' . $pages[$i][1];
+                echo '<a href="../' . $pages[$i][1];
 
                 echo '" class="menu';
 
