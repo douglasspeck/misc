@@ -86,14 +86,12 @@ h4 {
     text-align: center;
 }
 
-h1:target::after,
-h2:target::after,
-h3:target::after,
-h4:target::after,
-h5:target::after,
-h6:target::after {
-    content: '\1f448';
-    font-size: 1.5em;
-    margin-left: 1em;
-    animation: horizontal-bounce 0.5s infinite ease-in-out alternate;
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6:target {
+    display: inline-block;
+    animation: horizontal-highlight 3s forwards ease-in-out;
 }
