@@ -52,6 +52,13 @@
                 <h3>A língua de sinais é universal?</h3>
                 <p>As pessoas costumam, erroneamente, pensar na Libras como um mero código, incapaz de servir ao propósito da comunicação por si só. Por isso, tendem a pensar que é uma ferramenta universal, quando trata-se, na verdade, de uma única língua entre outras que utiliza dos sinais como meio de comunicação.</p>
                 <p>Fui pego de surpresa com a questão de "simplificar" a riqueza linguística porque <strong>eu mesmo</strong> já pensei assim. De fato, seria muito mais fácil se todos utilizássemos a mesma língua, mas isso é impossível e, ainda que fosse possível, acarretaria em uma grande perda de elementos culturais e históricos.</p>
+                <span class="new">
+                    <p>Há inúmeros exemplos de línguas de sinais não-oficiais, mesmo dentro do Brasil:</p>
+                    <ul>
+                        <li>Língua de sinais dos Urubu-Ka'apor</li>
+                        <li>Língua CENA</li>
+                    </ul>
+                </span>
             </section>
             <section>
                 <h3>A língua de sinais é artificial?</h3>

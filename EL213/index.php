@@ -59,7 +59,7 @@
             </section>
         </section>
         <section>
-            <h2>Aula 1: Introdução</h2>
+            <h2>Introdução</h2>
             <section>
                 <h3>Prática de Libras</h3>
                 <section>
@@ -125,17 +125,28 @@
                     <li>Legislação.</li>
                     <li>Educação do entorno <span class="arr-r"></span> educar a sociedade como um todo.</li>
                 </ul>
+                <div class="new">
+                    <picture>
+                        <img src="../assets/img/legal-recognition-of-sign-languages.png" alt="Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo."></img>
+                        <legend>Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo. <strong>Fonte:</strong> <a href="https://wfdeaf.org/news/the-legal-recognition-of-national-sign-languages/" target="_blank"><abbr title="World Federation of the Deaf">WFD</abbr></a></legend>
+                    </picture>
+                    <section>
+                        <h4>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (<abbr title="Convention on the Rights of Persons with Disabilities">CRPD</abbr>)</h4>
+                        <ul class="flowchart">
+                            <li><strong>182</strong> Estados Partes ratificaram a CRPD</li>
+                            <li><strong>62</strong> reconheceram oficialmente suas línguas de sinais nacionais através de um instrumento legal</li>
+                            <li><strong>66%</strong> dos Estados Partes da CRPD ainda não cumpriram suas obrigações <cite>WFD</cite></li>
+                        </ul>
+                    </section>
+                </div>
                 <blockquote class="high-quote">Visibilidade ≠ Reconhecimento</blockquote>
             </section>
         </section>
         <section>
-            <h2>Aula 2: O surdo e a surdez</h2>
+            <h2>O surdo e a surdez</h2>
             <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
             <section>
-                <h3>Surdo ou deficiente auditivo?</h3>
-            </section>
-            <section>
-                <h3>Aspectos biológicos da surdez</h3>
+                <h3>Aspectos biológicos da audição</h3>
                 <ul>
                     <li>O pavilhão auditivo concentra as ondas sonoras em direção ao canal auditivo.</li>
                     <li>O som passa pelo canal auditivo e faz vibrar a membrana timpânica.</li>
@@ -143,10 +154,63 @@
                     <li>A cóclea transforma a vibração mecânica em impulsos elétricos.</li>
                 </ul>
                 <p><strong>Vídeo: </strong><a href="https://www.youtube.com/watch?v=FLUwYCHFVas" target="_blank" title="Vídeo sobre como a audição funciona">Como funciona a Audição?</a></p>
+                <section>
+                    <h4>Aspectos biológicos da surdez</h4>
+                    <p>Uma das principais características da surdez é a sua variabilidade.</p>
+                    <p>Às vezes, no ambiente escolar, os professores têm acesso à ficha médica (laudo) dos alunos surdos, onde pode constar:</p>
+                    <ul>
+                        <li>Lateralidade (unilateral ou bilateral);</li>
+                        <li>Grau de surdez;</li>
+                        <li>Uso de tecnologias assistivas;
+                            <ul>
+                                <li>Os aparelhos auditivos servem para amplificar os sons do ambiente, reduzindo os efeitos da perda auditiva.</li>
+                                <li>Por outro lado, o implante coclear é um processador auditivo, isto é, ele recebe o som ambiente e transforma o mesmo em impulsos elétricos que são aplicados na cóclea.</li>
+                                <li>Há também o Sistema FM, que transmite sem fio a fala do professor (captada por um microfone de lapela) para o aparelho do aluno diretamente.</li>
+                                <li>É importante constar que, mesmo com o uso de tecnologias, a comunicação oral de pessoas surdas ainda é dificultada.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <h3>Aspectos da aprendizagem surda</h3>
+                <p>Para melhorar a participação de alunos surdos em sala de aula, algumas medidas podem ser tomadas:</p>
+                <ul>
+                    <li>Sempre comunicar-se de frente para a turma;</li>
+                    <li>Posicionar o aluno mais à frente no mapa de sala;</li>
+                </ul>
+                <p>Quanto à <strong>Leitura Labial</strong>, é uma ferramenta usada por poucaspessoas e com muitos agravantes:</p>
+                <ul>
+                    <li>Pelos faciais;</li>
+                    <li>Dicção (lacunas na dicção)</li>
+                    <li>Fonemas com a mesma estrutura ("bato"/"pato")</li>
+                </ul>
+                <section>
+                    <h4>Aprendizagem incidental</h4>
+                    <p>São informações obtidas sem que haja a intenção de ensinar. Ocorre, em especial, na primeira infância (até os 7 anos).</p>
+                    <p>Crianças ouvintes acabam associando informações faladas pelas pessoas ao redor, mas crianças surdas, evidentemente, não conseguem processar essas informações. Por conta disso, é fundamental que a surdez seja identificada o mais cedo possível, para que a criança possa ser educada de maneira apropriada.</p>
+                </section>
+                <section>
+                    <h4><strong><dfn>Modelo clínico-terapêutico</dfn></strong></h4>
+                    <ul>
+                        <li>Enxerga a surdez como uma <strong>deficiência/problema</strong>, encarando o surdo como alguém incapacitado.</li>
+                        <li>Por ser vista como doença, a surdez é tratada com <strong>reabilitação auditiva</strong>.</li>
+                        <li>São feitas intervenções tecnológicas e cirúrgicas para tentar "normalizar" os surdos.</li>
+                        <li>É defendida a <strong>Educação Especial</strong>, isto é, a segregação dos alunos surdos e educação dos mesmos à parte.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4><strong><dfn>Modelo socioantropológico</dfn></strong></h4>
+                    <ul>
+                        <li>Enxerga a surdez como uma <strong>diferença linguística e cultural</strong>.</li>
+                        <li>Há elementos culturais que diferenciam as pessoas surdas e compõem uma identidade própria.</li>
+                        <li>É defendida a <strong>Educação Bilíngue</strong>, isto é, o uso da língua de sinais unida à língua oral.</li>
+                    </ul>
+                </section>
             </section>
         </section>
         <section>
-            <h2>Aula 3: Aspectos da Gramática da Libras</h2>
+            <h2>Aspectos da Gramática da Libras</h2>
             <p>Referência Bibliográfica: <a href="../assets/DOCS" title="Libras – uma introdução – capítulo 4" target="_blank">Aspectos da gramática da Libras</a></p>
             <ul>
                 <li>Novamente há um relato da história da Língua de Sinais até os dias de hoje.</li>
@@ -214,6 +278,46 @@
                     <p>Via de regra, as línguas de sinais incorporam as unidades <strong>simultaneamente</strong>, enquanto as línguas orais tendem a organizar essas unidades <strong>sequencialmente</strong>. Isso se deve, é claro, ao canal de comunicação de cada língua.</p>
                 </section>
             </section>
+            <div class="new">
+                <section>
+                    <h3>Sinais Estudados</h3>
+                    <ul>
+                        <li>Sinais de Família/Parentesco</li>
+                        <li>Verbos mais usados</li>
+                        <li>Conectivo "e" é substituído por "TAMBÉM"</li>
+                        <li>Profissão/prática</li>
+                        <li>Profissional</li>
+                        <li>Curso/cursar</li>
+                        <li>Disciplina/Matéria</li>
+                        <li>Licenciatura</li>
+                        <li>Professor</li>
+                        <li>Morar/Casa</li>
+                        <li>Cidade</li>
+                        <li>Bairro</li>
+                        <li>Rua</li>
+                        <li>Avenida</li>
+                        <li>País</li>
+                        <li>Barão Geraldo</li>
+                        <li>Campinas</li>
+                        <li>São Paulo</li>
+                        <li>Junto</li>
+                        <li>Gato</li>
+                        <li>Cachorro</li>
+                        <li>Dia/Data</li>
+                        <li>Aniversário</li>
+                        <li>Nascimento</li>
+                        <li>Festa</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Recomendações de Conteúdo</h3>
+                    <ul>
+                        <li><strong>Filme:</strong> The Sound of Metal</li>   
+                        <li><strong>Série:</strong> Crisálida</li> 
+                        <li><strong>Filme:</strong> Coda (No Ritmo do Coração)</li>
+                    </ul>
+                </section>
+            </div>
         </section>
     </main>
     <?php include '../assets/php/scripts.php' ?>

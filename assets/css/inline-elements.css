@@ -13,8 +13,8 @@ abbr {
     margin-right: 5px;
 }
 
-.duvida {
-    background-color: yellow;
+.duvida, .new {
+    background-color: #ffffaa;
     color: #000;
 }
 
