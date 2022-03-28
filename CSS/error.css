@@ -1,4 +1,4 @@
-body.error main {
+body.error main, body.error h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
