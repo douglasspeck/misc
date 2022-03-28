@@ -15,7 +15,7 @@ blockquote.high-quote {
     color: var(--a1);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    margin-top: 0.5rem;
+    margin: 0.5em 0 1em;
 }
 
 blockquote.high-quote::before, blockquote.high-quote::after {

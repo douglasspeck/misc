@@ -1,0 +1,17 @@
+{
+    "sign_list" : [
+        {
+            "sign" : "espaço"
+        },
+        {
+            "sign" : "idade",
+            "content" : "Y para trás no ombro<br>Diferente do sinal de nome, que é direcional, o sinal de idade requisita um pronome"
+        },
+        {
+            "sign" : "nome"
+        },
+        {
+            "sign" : "olá"
+        }
+    ]
+}

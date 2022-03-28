@@ -67,7 +67,7 @@
                     <li>William Stokoe</li>
                     <li>Linguística Cartesiana</li>
                     <li>Nome antigo, proposto por Stokoe, para a fonologia das línguas de sinais: quirologia (<i>quir-</i> do grego, significa mão)</li>
-                    <li>Par mínimo: contraste de dois itens lexicais ("palavras") com base em um único componente. <span class="duvida">Seria como se fossem parônimas?</span></li>
+                    <li>Par mínimo: contraste de dois itens lexicais ("palavras") com base em um único componente.</li>
                 </ul>
                 <section>
                     <h4>Parâmatros de sinalização:</h4>
@@ -114,7 +114,7 @@
                 <ul>
                     <li>Pantomima = gestualização</li>
                     <li><q>A pantomima quer fazer com que você veja o 'objeto', enquanto o sinal quer que você veja o <strong>símbolo</strong> convencionado para esse objeto</q></li>
-                    <li>Aquelas definições do dicionário (mímica, mudez, mudo) me pegaram. <span class="duvida">Essas definições já foram reiteradas?</span></li>
+                    <li>Aquelas definições do dicionário (mímica, mudez, mudo) me pegaram.</li>
                     <li>Oralização: treinamento para que uma pessoa surda possa produxir os sons vocais da língua oral</li>
                 </ul>
             </section>
@@ -204,7 +204,7 @@
             <section>
                 <h3>A língua de sinais é uma língua ágrafa?</h3>
                 <ul>
-                    <li><a href="http://www.signwriting.org" target="_blank">SignWriting</a> pode ser aplicado na representação de qualquer língua de sinais. <span class="duvida">É possível comparar o SignWriting ao Alfabeto Fonético Internacional?</span></li>
+                    <li><a href="http://www.signwriting.org" target="_blank">SignWriting</a> pode ser aplicado na representação de qualquer língua de sinais.</li>
                     <li>Mesmo entre os surdos, há diferença na utilização dos grafemas, alguns são mais detalhistas e outros menos.</li>
                 </ul>
             </section>
@@ -270,7 +270,7 @@
             <section>
                 <h3>O uso da língua de sinais atrapalha a aprendizagem da língua oral?</h3>
                 <p>Novamente é possível associar com outros idiomas. As pessoas não temem a educação bilíngue de crianças oralizadas com pais de diferentes nacionalidades. Por que então há uma rejeição tão grande ao ensino bilíngue de crianças surdas?</p>
-                <p>O ensino da escrita para os surdos deve ser promovido na língua de sinais, uma vez que o consenso entre especialistas aponta para o fracasso do ensino da linguagem escrita quando a língua de sinais não é usada para instruir o aluno. <span class="duvida">Como fica, nesse caso, o ensino da matemática?</span></p>
+                <p>O ensino da escrita para os surdos deve ser promovido na língua de sinais, uma vez que o consenso entre especialistas aponta para o fracasso do ensino da linguagem escrita quando a língua de sinais não é usada para instruir o aluno.</p>
             </section>
             <section>
                 <h3>O surdo precisa da língua portuguesa para sobreviver na sociedade majoritária ouvinte?</h3>
