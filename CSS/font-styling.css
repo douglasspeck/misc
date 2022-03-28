@@ -4,17 +4,12 @@ a {
     font-weight: 600;
     color: var(--b1);
     background-image: linear-gradient(
-      to right,
-      transparent,
-      transparent 50%,
-      #000 50%
-    ),linear-gradient(
         to right,
         var(--a1),
         var(--b1)
       );
-    background-size: 200% 100%;
-    background-position: -100% 0;
+    background-size: 150% 100%;
+    background-position: 0 0;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,7 +22,6 @@ a::before {
     display: block;
     position: absolute;
     bottom: 0;
-    left: 0;
     width: 100%;
     height: 0.2em;
     background-image: linear-gradient(
@@ -41,12 +35,17 @@ a::before {
     transition: all 0.3s ease;
 }
 
+a:not(:hover)::before {
+    left: 0;
+}
+
 a:hover, a:focus {
-    background-position: 0;
+    background-position: 75% 0;
 }
 
 a:hover::before {
-    background-size: 100% 0;
+    width: 0;
+    right: 0;
 }
 
 a * {
@@ -85,4 +84,16 @@ h4 {
 
 .center {
     text-align: center;
+}
+
+h1:target::after,
+h2:target::after,
+h3:target::after,
+h4:target::after,
+h5:target::after,
+h6:target::after {
+    content: '\1f448';
+    font-size: 1.5em;
+    margin-left: 1em;
+    animation: horizontal-bounce 0.5s infinite ease-in-out alternate;
 }

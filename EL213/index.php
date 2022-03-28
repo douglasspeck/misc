@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <?php
-        $title = 'EL213 – LIBRAS e Ensino de Surdos';
+        $title = 'EL213 – Libras e Ensino de Surdos';
         $keywords = '';
         $resources = [];
         include '../PHP/head.php';
@@ -28,16 +28,16 @@
                 <li>Essa disciplina é uma disciplina sob o processo de pesquisa (por isso tivemos que assinar o <abbr title="Termo de Consentimento e Livre Esclarecimento">TCLE</abbr>).</li>
                 <li><strong class="upper">Objetivos:</strong>
                     <ol>
-                        <li><strong>Prático:</strong> Conhecimentos básicos de LIBRAS:
+                        <li><strong>Prático:</strong> Conhecimentos básicos de Libras:
                             <ul>
-                                <li>Utilizar repertório da LIBRAS para comunicação básica/inicial.</li>
-                                <li>Habilidades de compreensão e produção em LIBRAS.</li>
+                                <li>Utilizar repertório da Libras para comunicação básica/inicial.</li>
+                                <li>Habilidades de compreensão e produção em Libras.</li>
                             </ul>
                         </li>
                         <li><strong>Teórico:</strong>
                             <ul>
                                 <li>Compreender as implicações das especificidades sociohistóricas e linguísticas da surdez para a docência na educação básica.</li>
-                                <li>Educação de Surdos <span class="arr-r"></span> a disciplina não serve apenas para aprender LIBRAS, mas para aprender as metodologias de ensino que devem ser aplicadas no ensino de alunos surdos.</li>
+                                <li>Educação de Surdos <span class="arr-r"></span> a disciplina não serve apenas para aprender Libras, mas para aprender as metodologias de ensino que devem ser aplicadas no ensino de alunos surdos.</li>
                             </ul>
                         </li>
                     </ol>
@@ -61,7 +61,7 @@
         <section>
             <h2>Aula 1: Introdução</h2>
             <section>
-                <h3>Prática de LIBRAS</h3>
+                <h3>Prática de Libras</h3>
                 <section>
                     <h4>Sinais Estudados</h4>
                     <ul>
@@ -142,6 +142,77 @@
                     <li>Essa membrana movimenta os ossículos que transmitem o movimento para a cóclea.</li>
                     <li>A cóclea transforma a vibração mecânica em impulsos elétricos.</li>
                 </ul>
+                <p><strong>Vídeo: </strong><a href="https://www.youtube.com/watch?v=FLUwYCHFVas" target="_blank" title="Vídeo sobre como a audição funciona">Como funciona a Audição?</a></p>
+            </section>
+        </section>
+        <section>
+            <h2>Aula 3: Aspectos da Gramática da Libras</h2>
+            <p>Referência Bibliográfica: <a href="assets/DOCS" title="Libras – uma introdução – capítulo 4" target="_blank">Aspectos da gramática da Libras</a></p>
+            <ul>
+                <li>Novamente há um relato da história da Língua de Sinais até os dias de hoje.</li>
+                <li>No Brasil, a língua de sinais fora proibida por um tempo e foi oficializada em 2002, tendo sua regulamentação somente em 2005.</li>
+                <li>O primeiro curso de Letras/Libras teve início em 2006, na modalidade de ensino àdistância, com dois tipos de formação:
+                    <ul>
+                        <li><strong>Licenciatura: </strong>formação de professores de Libras</li>
+                        <li><strong>Bacharelado: </strong>formação de intérpretes de Libras</li>
+                    </ul>
+                </li>
+                <li>Em 2009 o curso passou a ser ofertado na modalidade presencial, na <abbr title="Universidade Federal de Santa Catarina">UFSC</abbr></li>
+                <li>Em 2010 foram oficializadas as profissões de intérprete e tradutor de Libras.</li>
+            </ul>
+            <section>
+                <h3 id="aula-3-1">A língua de sinais tem gramática?</h3>
+                <ul>
+                    <li>William Stokoe</li>
+                    <li>Linguística Cartesiana</li>
+                    <li>Nome antigo, proposto por Stokoe, para a fonologia das línguas de sinais: quirologia (<i>quir-</i> do grego, significa mão)</li>
+                    <li>Par mínimo: contraste de dois itens lexicais ("palavras") com base em um único componente.</li>
+                </ul>
+                <section>
+                    <h4>Parâmatros de sinalização:</h4>
+                    <ul>
+                        <li>configuração de mão (CM)
+                            <ul>
+                                <li>Existem, atualmente, 63 numerações para as configurações de mão. O número 4, por exemplo,possui a configuração de mão [52].</li>
+                            </ul>
+                        </li>
+                        <li>ponto de articulação (PA) ou locação (L)</li>
+                        <li>movimento (M): indicado por uma seta</li>
+                        <li>orientação da palma da mão (O)
+                            <ul>
+                                <li>flexão de verbos</li>
+                                <li>negativa ("querer" e "não querer", por exemplo)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Marcadores não manuais</h4>
+                    <p>Além dos parâmetros de sinalização, há um uso extensivo de <strong>marcadores não manuais</strong>. Diferente das línguas orais, onde entonação, velocidade, expressões faciais, entre outros, são traços <strong>paralinguísticos</strong>, nas línguas de sinais as expressões faciais e corporais são <strong>elementos gramaticais</strong> que compõem a estrutura da língua. Nesse caso, podem atuar como um componente lexical, seja <q>uma referência pronominal, uma partícula negativa, um advérbio, um modificador ou uma marca de aspecto.</q> <cite>Ferreira Brito, 1995:240</cite>.</p>
+                </section>
+                <section>
+                    <h4>Semelhanças entre as línguas orais e de sinais</h4>
+                    <p>A nível estrutural, todas as línguas são combinações de unidades simples.</p>
+                    <blockquote>
+                        <p>
+                            Portanto, para compreender a gramática de uma língua, é preciso apreender e estudar as regras de formação e de combinação de seus elementos, e também perceber os diferentes contextos de uso de determinados sinais.
+                        </p>
+                        <cite>Góes, A. M. <i lang="la">et al</i></cite>
+                    </blockquote>
+                    <section>
+                        <h5>Sistemas combinatórios discretos</h5>
+                        <ul class="flowchart">
+                            <li>Sentenças e frases</li>
+                            <li>Palavras</li>
+                            <li>Morfemas</li>
+                            <li>Fonemas</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h4>Diferenças entre as línguas orais e de sinais</h4>
+                    <p>Via de regra, as línguas de sinais incorporam as unidades <strong>simultaneamente</strong>, enquanto as línguas orais tendem a organizar essas unidades <strong>sequencialmente</strong>. Isso se deve, é claro, ao canal de comunicação de cada língua.</p>
+                </section>
             </section>
         </section>
     </main>

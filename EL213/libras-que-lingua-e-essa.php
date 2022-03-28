@@ -63,51 +63,7 @@
             </section>
             <section>
                 <h3>A língua de sinais tem gramática?</h3>
-                <ul>
-                    <li>William Stokoe</li>
-                    <li>Linguística Cartesiana</li>
-                    <li>Nome antigo, proposto por Stokoe, para a fonologia das línguas de sinais: quirologia (<i>quir-</i> do grego, significa mão)</li>
-                    <li>Par mínimo: contraste de dois itens lexicais ("palavras") com base em um único componente.</li>
-                </ul>
-                <section>
-                    <h4>Parâmatros de sinalização:</h4>
-                    <ul>
-                        <li>configuração de mão (CM)
-                            <ul>
-                                <li>Existem numerações para as formas de mão. O número 4, por exemplo,possui a configuração de mão [52].</li>
-                            </ul>
-                        </li>
-                        <li>ponto de articulação (PA) ou locação (L)</li>
-                        <li>movimento (M): indicado por uma seta</li>
-                        <li>orientação da palma da mão (o)
-                            <ul>
-                                <li>flexão de verbos</li>
-                                <li>negativa ("querer" e "não querer", por exemplo)</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Marcadores não manuais</h4>
-                    <p>Além dos parâmetros de sinalização, há um uso extensivo de <strong>marcadores não manuais</strong>. Diferente das línguas orais, onde entonação, velocidade, expressões faciais, entre outros, são traços <strong>paralinguísticos</strong>, nas línguas de sinais as expressões faciais e corporais são <strong>elementos gramaticais</strong> que compõem a estrutura da língua. Nesse caso, podem atuar como um componente lexical, seja <q>uma referência pronominal, uma partícula negativa, um advérbio, um modificador ou uma marca de aspecto.</q> <cite>Ferreira Brito, 1995:240</cite>.</p>
-                </section>
-                <section>
-                    <h4>Semelhanças entre as línguas orais e de sinais</h4>
-                    <p>A nível estrutural, todas as línguas são combinações de unidades simples.</p>
-                    <section>
-                        <h5>Sistemas combinatórios discretos</h5>
-                        <ul class="flowchart">
-                            <li>Sentenças e frases</li>
-                            <li>Palavras</li>
-                            <li>Morfemas</li>
-                            <li>Fonemas</li>
-                        </ul>
-                    </section>
-                </section>
-                <section>
-                    <h4>Diferenças entre as línguas orais e de sinais</h4>
-                    <p>Via de regra, as línguas de sinais incorporam as unidades <strong>simultaneamente</strong>, enquanto as línguas orais tendem a organizar essas unidades <strong>sequencialmente</strong>. Isso se deve, é claro, ao canal de comunicação de cada língua.</p>
-                </section>
+                <p>Conteúdo movido para <a href="./#aula-3-1" title="EL213 – Página Inicial">Aula 3: Aspectos gramaticais da Libras</a></p>
             </section>
             <section>
                 <h3>A língua de sinais é mímica?</h3>

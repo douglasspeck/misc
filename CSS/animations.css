@@ -6,3 +6,12 @@
         transform: scaleY(100%);
     }
 }
+
+@keyframes horizontal-bounce {
+    0% {
+        transform: translateX(-30%);
+    }
+    100% {
+        transform: translateX(30%);
+    }
+}
