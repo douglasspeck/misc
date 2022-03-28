@@ -9,3 +9,7 @@ body.error h1 > .number {
     font-size: 5em;
     color: var(--a1);
 }
+
+body.error p {
+    text-align: center;
+}
