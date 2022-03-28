@@ -30,13 +30,13 @@
         <section>
             <h2>Projetos que posso participar como licenciando</h2>
             <ul>
-                <li><a href="https://picme.obmep.org.br/" target="_blank"><abbr title="Programa de Iniciação Científica e Mestrado">PICME</abbr>:
+                <li><a href="https://picme.obmep.org.br/" target="_blank"><abbr title="Programa de Iniciação Científica e Mestrado">PICME</abbr></a>:
                     <ul>
                         <li>Bolsa de Iniciação Científica</li>
                         <li>Apenas para medalhistas da OBMEP</li>
                     </ul>
                 </li>
-                <li>Intercâmbio, via <a href="http://www.internationaloffice.unicamp.br/editais-alunos/" target="_blank"><abbr title="Diretoria Executiva de Relações Internacionais">DERI</abbr>-Unicamp</li>
+                <li>Intercâmbio, via <a href="http://www.internationaloffice.unicamp.br/editais-alunos/" target="_blank"><abbr title="Diretoria Executiva de Relações Internacionais">DERI</abbr></a>-Unicamp</li>
             </ul>
         </section>
         <section>
