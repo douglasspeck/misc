@@ -4,3 +4,8 @@ body.error main {
     align-items: center;
     justify-content: center;
 }
+
+body.error h1 > .number {
+    font-size: 5em;
+    color: var(--a1);
+}
