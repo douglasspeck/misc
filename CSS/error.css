@@ -1,4 +1,4 @@
-body.error > main {
+body.error main {
     display: flex;
     align-items: center;
     justify-content: center;
