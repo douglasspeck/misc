@@ -144,7 +144,9 @@
         </section>
         <section>
             <h2>O surdo e a surdez</h2>
-            <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
+            <div class="new">
+                <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
+            </div>
             <section>
                 <h3>Aspectos biológicos da audição</h3>
                 <ul>
