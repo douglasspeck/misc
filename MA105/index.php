@@ -36,6 +36,15 @@
             <h2>Teoria de Conjuntos</h2>
             <p>Um <dfn>Conjunto</dfn> é uma coleção de objetos <strong>bem definfidos</strong> chamados de membros ou elementos.</p>
             <p>Conjuntos são denotados por letras maiúsculas.</p>
+            <section>
+              <h3>Exemplos:</h3>
+              <ul>
+                <li>\( A = \{a,e,i,o,u\} \)</li>
+                <li>\( \mathbb{N} = \{0,1,2,3,...\} \)</li>
+                <li>\( \mathbb{Z}^{+} = \{1,2,3,...\} \)</li>
+                <li>\( \mathbb{Z} = \{...,-3,-2,-1,0,1,2,3,...\} \)</li>
+              </ul>
+            </section>
         </section>
         <section>
             <h2>Funções</h2>
