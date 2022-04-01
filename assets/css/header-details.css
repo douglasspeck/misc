@@ -43,3 +43,8 @@
 .header-details > .details-content > :first-child {
     margin: 0;
 }
+
+.header-details > .details-content > ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

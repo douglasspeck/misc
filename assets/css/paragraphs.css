@@ -3,6 +3,10 @@ p, li {
     margin-top: 0.5em;
 }
 
+li {
+    margin-bottom: 0.5em;
+}
+
 section {
     margin-top: 1em;
 }
