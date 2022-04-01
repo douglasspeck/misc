@@ -20,6 +20,7 @@
 }
 
 #menu-tag {
+    --y: calc(var(--x) * 0.4 * var(--shf) / var(--shf));
     background-color: inherit;
     font-size: 3em;
     display: flex;
@@ -40,13 +41,13 @@
 #menu-tag > .h-bar {
     display: block;
     width: 40%;
-    height: 5px;
+    height: var(--y);
     background-color: #fff;
     transition: all 1s ease-in-out;
 }
 
 #menu-tag > .h-bar:not(:last-of-type) {
-    margin-bottom: 5px;
+    margin-bottom: var(--y);
 }
 
 #menu.open #menu-tag > .h-bar {
