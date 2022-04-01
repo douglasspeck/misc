@@ -53,6 +53,10 @@
             </details>
         </header>
         <section>
+            <h2>Atas, em ordem cronológica</h2>
+            <ul>
+                <li></li>
+            </ul>
             <h2>Primeira Reunião</h2>
             <section>
                 <h3>Informações Gerais sobre a SeProMat</h3>
