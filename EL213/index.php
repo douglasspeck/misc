@@ -97,7 +97,14 @@
                         </li>
                         <li>Via de regra, dá pra suprimir o "eu" (e outros pronomes da primeira pessoa) das frases, porque <strong>o corpo que sinaliza já é o do indivíduo</strong>.</li>
                     </ul>
-                    <blockquote class="high-quote">Libras é uma língua visual, gestual e espacial</blockquote>
+                    <blockquote class="high-quote">
+                        <p>Libras é uma língua visual, gestual e espacial</p>
+                    </blockquote>
+                    <ul class="new">
+                        <li>Alfabeto Manual</li>
+                        <li>Sinais</li>
+                        <li>Classificadores</li>
+                    </ul>
                 </section>
             </section>
             <section>
@@ -125,28 +132,24 @@
                     <li>Legislação.</li>
                     <li>Educação do entorno <span class="arr-r"></span> educar a sociedade como um todo.</li>
                 </ul>
-                <div class="new">
-                    <picture>
-                        <img src="../assets/img/legal-recognition-of-sign-languages.png" alt="Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo."></img>
-                        <legend>Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo. <strong>Fonte:</strong> <a href="https://wfdeaf.org/news/the-legal-recognition-of-national-sign-languages/" target="_blank"><abbr title="World Federation of the Deaf">WFD</abbr></a></legend>
-                    </picture>
-                    <section>
-                        <h4>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (<abbr title="Convention on the Rights of Persons with Disabilities">CRPD</abbr>)</h4>
-                        <ul class="flowchart">
-                            <li><strong>182</strong> Estados Partes ratificaram a CRPD</li>
-                            <li><strong>62</strong> reconheceram oficialmente suas línguas de sinais nacionais através de um instrumento legal</li>
-                            <li><strong>66%</strong> dos Estados Partes da CRPD ainda não cumpriram suas obrigações <cite>WFD</cite></li>
-                        </ul>
-                    </section>
-                </div>
+                <picture>
+                    <img src="../assets/img/legal-recognition-of-sign-languages.png" alt="Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo."></img>
+                    <legend>Infográfico apresentando o reconhecimento legal das línguas de sinais ao redor do mundo. <strong>Fonte:</strong> <a href="https://wfdeaf.org/news/the-legal-recognition-of-national-sign-languages/" target="_blank"><abbr title="World Federation of the Deaf">WFD</abbr></a></legend>
+                </picture>
+                <section>
+                    <h4>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (<abbr title="Convention on the Rights of Persons with Disabilities">CRPD</abbr>)</h4>
+                    <ul class="flowchart">
+                        <li><strong>182</strong> Estados Partes ratificaram a CRPD</li>
+                        <li><strong>62</strong> reconheceram oficialmente suas línguas de sinais nacionais através de um instrumento legal</li>
+                        <li><strong>66%</strong> dos Estados Partes da CRPD ainda não cumpriram suas obrigações <cite>WFD</cite></li>
+                    </ul>
+                </section>
                 <blockquote class="high-quote">Visibilidade ≠ Reconhecimento</blockquote>
             </section>
         </section>
         <section>
             <h2>O surdo e a surdez</h2>
-            <div class="new">
-                <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
-            </div>
+            <p>Referência Bibliográfica: <a href="libras-que-lingua-e-essa.php">Libras? que língua é essa?</a></p>
             <section>
                 <h3>Aspectos biológicos da audição</h3>
                 <ul>
@@ -280,46 +283,58 @@
                     <p>Via de regra, as línguas de sinais incorporam as unidades <strong>simultaneamente</strong>, enquanto as línguas orais tendem a organizar essas unidades <strong>sequencialmente</strong>. Isso se deve, é claro, ao canal de comunicação de cada língua.</p>
                 </section>
             </section>
-            <div class="new">
-                <section>
-                    <h3>Sinais Estudados</h3>
-                    <ul>
-                        <li>Sinais de Família/Parentesco</li>
-                        <li>Verbos mais usados</li>
-                        <li>Conectivo "e" é substituído por "TAMBÉM"</li>
-                        <li>Profissão/prática</li>
-                        <li>Profissional</li>
-                        <li>Curso/cursar</li>
-                        <li>Disciplina/Matéria</li>
-                        <li>Licenciatura</li>
-                        <li>Professor</li>
-                        <li>Morar/Casa</li>
-                        <li>Cidade</li>
-                        <li>Bairro</li>
-                        <li>Rua</li>
-                        <li>Avenida</li>
-                        <li>País</li>
-                        <li>Barão Geraldo</li>
-                        <li>Campinas</li>
-                        <li>São Paulo</li>
-                        <li>Junto</li>
-                        <li>Gato</li>
-                        <li>Cachorro</li>
-                        <li>Dia/Data</li>
-                        <li>Aniversário</li>
-                        <li>Nascimento</li>
-                        <li>Festa</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Recomendações de Conteúdo</h3>
-                    <ul>
-                        <li><strong>Filme:</strong> The Sound of Metal</li>   
-                        <li><strong>Série:</strong> Crisálida</li> 
-                        <li><strong>Filme:</strong> Coda (No Ritmo do Coração)</li>
-                    </ul>
-                </section>
-            </div>
+            <section>
+                <h3>Sinais Estudados</h3>
+                <ul>
+                    <li>Sinais de Família/Parentesco</li>
+                    <li>Verbos mais usados</li>
+                    <li>Conectivo "e" é substituído por "TAMBÉM"</li>
+                    <li>Profissão/prática</li>
+                    <li>Profissional</li>
+                    <li>Curso/cursar</li>
+                    <li>Disciplina/Matéria</li>
+                    <li>Licenciatura</li>
+                    <li>Professor</li>
+                    <li>Morar/Casa</li>
+                    <li>Cidade</li>
+                    <li>Bairro</li>
+                    <li>Rua</li>
+                    <li>Avenida</li>
+                    <li>País</li>
+                    <li>Barão Geraldo</li>
+                    <li>Campinas</li>
+                    <li>São Paulo</li>
+                    <li>Junto</li>
+                    <li>Gato</li>
+                    <li>Cachorro</li>
+                    <li>Dia/Data</li>
+                    <li>Aniversário</li>
+                    <li>Nascimento</li>
+                    <li>Festa</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Recomendações de Conteúdo</h3>
+                <ul>
+                    <li><strong>Filme:</strong> The Sound of Metal</li>   
+                    <li><strong>Série:</strong> Crisálida</li> 
+                    <li><strong>Filme:</strong> Coda (No Ritmo do Coração)</li>
+                </ul>
+            </section>
+        </section>
+        <section class="new">
+            <h2>Primeira aula presencial</h2>
+            <p>
+                As aulas presenciais de Libras diferenciam-se das aulas remotas por dois principais fatores: a dificuldade de sinalizar (que acontece nas aulas remotas e não acontece nas presenciais) e a interatividade (que é muito maior presencialmente).
+            </p>
+            <blockquote>
+                <p>Agora  as coisas vão se misturar um pouco mais</p>
+            </blockquote>
+            <section>
+                <h3>Língua vs. Linguagem</h3>
+                <p>A <dfn>Linguagem</dfn> é a capacidade humana de produzir, desenvolver e compreender a Língua.</p>
+                <p>A <dfn>Língua</dfn>, por sua vez, é o "conjunto organizado de elementos (sons e gestos) que possibilitam a comunicação. Surge em sociedade e pode manifestar-se através de sons ou gestos.</p>
+            </section>
         </section>
     </main>
     <?php include '../assets/php/scripts.php' ?>
