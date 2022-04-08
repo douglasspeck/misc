@@ -20,6 +20,8 @@
 
             <!-- Resources -->';
 
+            if (!isset($pass)) {$pass = false;};
+
             if ($pass) {echo '<script src="../../assets/js/password.js"></script>';};
 
             for($i = 0; $i < count($resources); $i++) {
