@@ -47,12 +47,46 @@
             </section>
         </section>
         <section>
+            <h2>Polinômios</h2>
+            <section>
+                <h3>Inequações polinomiais</h3>
+                <section>
+                    <h4>Roteiro para resolver inequações polinomiais</h4>
+                    <ol>
+                        <li>Encontrar as raízes do polinômio</li>
+                        <li>Formar intervalos utilizando as raízes</li>
+                        <li>Verificar o sinal em cada intervalo</li>
+                        <li>Unir os intervalos que estão de acordo com a inequação</li>
+                    </ol>
+                </section>
+            </section>
+        </section>
+        <section>
             <h2>Funções</h2>
             Funções são
             <section>
                 <h3>Enunciado Formal</h3>
                 <p>\( R \subseteq X \times Y \)</p>
                 <p>\( A =  \)</p>
+            </section>
+            <section>
+                <h3>Continuidade de funções</h3>
+                <p>Funções contínuas \(y=f\left(x\right)\) são aquelas cujo gráfico não possui quebra.</p>
+                <section>
+                    <h4>Sinal de uma função contínua</h4>
+                    <ul>
+                        <li>
+                            <p>Se \(f\) é uma função contínua, então sempre que \(f\) passa da parte positiva para a parte negativa ela possui raiz \(x\) em que \(f\left(x\right)=0\)</p>
+                        </li>
+                        <li>
+                            <p><strong>OBS:</strong> todos os polinômios são contínuos</p>
+                        </li>
+                        <li>
+                            O gráfico do polinômio é suave, ou seja, não possui quinas.
+                        </li>
+                    </ul>
+                </section>
+                <p><strong>OBS:</strong> entre duas raízes consecutivas sempre há um extremo (máx. ou min.) local de \(P\left(x\right)\)</p>
             </section>
         </section>
         </main>
