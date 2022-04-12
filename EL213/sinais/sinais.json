@@ -5,10 +5,15 @@
         },
         {
             "sign" : "idade",
-            "content" : "Y para trás no ombro<br>Diferente do sinal de nome, que é direcional, o sinal de idade requisita um pronome"
+            "content" : "Y para trás no ombro"
         },
         {
-            "sign" : "nome"
+            "sign" : "meu-nome",
+            "cm" : "24",
+            "pa" : null,
+            "m" : "linear para a direita",
+            "o" : "para baixo",
+            "enm" : null
         },
         {
             "sign" : "olá"
@@ -270,6 +275,55 @@
         },
         {
             "sign" : "antigo"
+        },
+        {
+            "sign" : "feliz",
+            "cm" : "54",
+            "pa" : null,
+            "m" : "circular para baixo",
+            "o" : "para frente",
+            "enm" : "expressão feliz"
+        },
+        {
+            "sign" : "acampamento",
+            "cm" : "37a",
+            "pa" : null,
+            "m" : "diagonal de dentro para fora e para baixo",
+            "o" : "para dentro",
+            "enm" : null
+        },
+        {
+            "sign" : "documento",
+            "cm" : "37a",
+            "pa" : "palma da mão",
+            "m" : "linear para baixo",
+            "o" : "para baixo",
+            "enm" : null
+        },
+        {
+            "sign" : "arco-íris",
+            "cm" : "58",
+            "pa" : null,
+            "m" : "parábola de dentro para fora por cima",
+            "o" : "para baixo",
+            "enm" : null
+        },
+        {
+            "sign" : "cinema",
+            "cm" : "64",
+            "cm-a": "61",
+            "pa" : "dorso da mão",
+            "m" : "intermitente da esquerda para a direita",
+            "o" : "para frente",
+            "enm" : null
+        },
+        {
+            "sign" : "conhecer",
+            "cm" : "58",
+            "pa" : "queixo",
+            "m" : "batidas intermitentes",
+            "o" : "para o lado",
+            "enm" : null
         }
     ]
 }

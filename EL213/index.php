@@ -100,7 +100,7 @@
                     <blockquote class="high-quote">
                         <p>Libras é uma língua visual, gestual e espacial</p>
                     </blockquote>
-                    <ul class="new">
+                    <ul>
                         <li>Alfabeto Manual</li>
                         <li>Sinais</li>
                         <li>Classificadores</li>
@@ -238,19 +238,33 @@
                     <li>Par mínimo: contraste de dois itens lexicais ("palavras") com base em um único componente.</li>
                 </ul>
                 <section>
-                    <h4>Parâmatros de sinalização:</h4>
+                    <h4>Parâmetros de sinalização:</h4>
                     <ul>
-                        <li>configuração de mão (CM)
+                        <li>Configuração de mão (CM)
                             <ul>
-                                <li>Existem, atualmente, 63 numerações para as configurações de mão. O número 4, por exemplo,possui a configuração de mão [52].</li>
+                                <li>Formato da mão</li>
+                                <li>Existem, atualmente, 64 numerações para as configurações de mão. O número 4, por exemplo,possui a configuração de mão [58].</li>
+                            </ul>
+                            <img src="../assets/img/libras-configuracoes-de-mao.png" alt="Montagem demonstrando todas as configurações de mão da Libras" height="400">
+                        </li>
+                        <li>Ponto de articulação (PA) ou locação (L)
+                            <ul>
+                                <li>Onde o sinal é realizado</li>
+                                <li>A maior parte é realizada no chamado <strong>Espaço Neutro</strong>, que é o espaço de sinalização</li>
                             </ul>
                         </li>
-                        <li>ponto de articulação (PA) ou locação (L)</li>
-                        <li>movimento (M): indicado por uma seta</li>
-                        <li>orientação da palma da mão (O)
+                        <li>Movimento (M): indicado por uma seta</li>
+                        <li>Orientação da <strong>palma</strong> da mão (O)
                             <ul>
                                 <li>flexão de verbos</li>
                                 <li>negativa ("querer" e "não querer", por exemplo)</li>
+                            </ul>
+                        </li>
+                        <li>Expressões não-manuais (ENM)
+                            <ul>
+                                <li>Acompanham o sinal</li>
+                                <li>Normalmente estão associados a emoções e sentimentos</li>
+                                <li>Alguns morfemas possuem ENM como parâmetro. Nesse caso, se eu mudar a ENM ou não fizer a mesma, deixa de ser um morfema e passa a ser uma sentença. Por exemplo: se eu fizer o sinal FELIZ sem ENM, eu estou dizendo, ironicamente, que "estou feliz".</li>
                             </ul>
                         </li>
                     </ul>
@@ -322,18 +336,127 @@
                 </ul>
             </section>
         </section>
-        <section class="new">
+        <section>
             <h2>Primeira aula presencial</h2>
             <p>
                 As aulas presenciais de Libras diferenciam-se das aulas remotas por dois principais fatores: a dificuldade de sinalizar (que acontece nas aulas remotas e não acontece nas presenciais) e a interatividade (que é muito maior presencialmente).
             </p>
-            <blockquote>
+            <blockquote class="high-quote">
                 <p>Agora  as coisas vão se misturar um pouco mais</p>
             </blockquote>
             <section>
-                <h3>Língua vs. Linguagem</h3>
-                <p>A <dfn>Linguagem</dfn> é a capacidade humana de produzir, desenvolver e compreender a Língua.</p>
-                <p>A <dfn>Língua</dfn>, por sua vez, é o "conjunto organizado de elementos (sons e gestos) que possibilitam a comunicação. Surge em sociedade e pode manifestar-se através de sons ou gestos.</p>
+                <h3>Pronomes interrogativos</h3>
+            </section>
+        </section>
+        <section>
+            <h2>Língua vs. Linguagem</h2>
+            <p>A <dfn>Linguagem</dfn> é a capacidade humana de produzir, desenvolver e compreender a Língua.</p>
+            <p>A <dfn>Língua</dfn>, por sua vez, é o "conjunto organizado de elementos (sons e gestos) que possibilitam a comunicação. Surge em sociedade e pode manifestar-se através de sons ou gestos.</p>
+            <section>
+                <h3>Níveis linguísticos da Libras</h3>
+                <ul>
+                    <li><strong>fonológicos</strong> <span class="arr-r"></span> construção de fonemas
+                        <ul>
+                            <li>movimentos circulares <span class="arr-r"></span> repetição</li>
+                            <li>movimentos repetitivos <span class="arr-r"></span> plural</li>
+                        </ul>
+                    </li>
+                    <li><strong>morfológicos</strong> <span class="arr-r"></span> construção de palavras/morfemas
+                        <ul>
+                            <li>Verbos ancorados</li>
+                        </ul>
+                    </li>
+                    <li><strong>sintáticos</strong> <span class="arr-r"></span> formação de frases
+                        <ul>
+                            <li><q>Eu favoreço o uso da ordem</q></li>
+                            <li>Sujeito-Verbo-Objeto</li>
+                            <li>Expressões não-manuais
+                                <ul>
+                                    <li>Podem concordar com o movimento</li>
+                                    <li>Podem expressar negação</li>
+                                    <li>Podem expressar confirmação</li>
+                                    <li>Podem expressar interrogação
+                                        <ul>
+                                            <li>Perguntas de sim/não <span class="arr-r"></span> franze a testa e abaixa a cabeça</li>
+                                            <li>Perguntas em geral (incluindo com pronomes interrogativos) <span class="arr-r"></span> ergue a cabeça</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>É comum na libras a chamada <strong>topicalização</strong>, onde desloca-se o elemento principal de uma sentença para o começo da mesma, de modo a destacá-lo.</li>
+                        </ul>
+                    </li>
+                    <li><strong>semânticos</strong> <span class="arr-r"></span> sentido</li>
+                    <li><strong>pragmáticos</strong> <span class="arr-r"></span> contexto</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Análise contrastiva</h3>
+                <ul>
+                    <li>expressões faciais/corporais <strong>não</strong> são elementos paralinguísticos</li>
+                    <li>o sujeito nem sempre é marcado</li>
+                    <li>não usamos alguns elementos, como artigos, preposições e verbos de ligação</li>
+                    <li>movimento e direção</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <h2>Verbos em Libras</h2>
+            <section>
+                <h3>Direcionalidade</h3>
+                <p>Na Libras, os verbos podem ser direcionais ou não-direcionais, de acordo com a concordância do verbo na sentença.</p>
+                <ul>
+                    <li><strong>direcionais:</strong> possuem concordância</li>
+                    <li><strong>não-direcionais:</strong> não possuem concordância, normalmente estão ancorados no corpo</li>
+                    <li><strong>incorporação da negação:</strong> alguns verbos podem incorporar a negação da sentença, mudando seu sinal</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Formação de frases</h3>
+                <ul class="flowchart">
+                    <li>sujeito</li>
+                    <li>verbo</li>
+                    <li>objeto</li>
+                </ul>
+                <p>Para indicar sujeito e objeto, utilizamos do <strong>apontamento</strong> (que também é usado em alguns pronomes). Além disso, é possível a construção de um <strong>cenário</strong>, onde posicionamos esses elementos.</p>
+                <p>É comum na Libras, também, a criação de um <strong>referente imaginário</strong>, isto é, utiliza-se o apontamento em direção a um espaço "vazio" do espaço neutro, indicando que aquela posição denota um determinado sujeito ou objeto.</p>
+                <p>Na formação</p>
+                <p>Toda sentença em Libras possui um "foco", o qual denominamos de <strong>escopo</strong>. O escopo é o ponto de maior intensidade do tom da sentença. Isto é, as ENM relacionadas à sentença (interrogação, negação, etc) devem ser mais fortes no escopo ou devem partir do mesmo.</p>
+            </section>
+            <section>
+                <h3>Noções temporais</h3>
+                <p>Os verbos em Libras <strong>não possuem variação temporal</strong>.</p>
+                <p>As noções temporais em Libras podem ser apontadas através da inclinação do corpo:</p>
+                <ul>
+                    <li>Os fenômenos narrados no presente são sinalizados com o corpo ereto</li>
+                    <li>Os fenômenos narrados no passado são sinalizados com o corpo levemento inclinado para trás.</li>
+                    <li>Os fenômenos narrados no futuro são sinalizados com o corpo levemento inclinado para frente.</li>
+                </ul>
+                <section>
+                    <h4>Passado</h4>
+                    <ul>
+                        <li>ONTEM</li>
+                        <li>ANTEONTEM</li>
+                        <li>PASSADO</li>
+                        <li>JÁ</li>
+                        <li>HÁ-MUITO-TEMPO</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Presente</h4>
+                    <ul>
+                        <li>AGORA/HOJE</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Futuro</h4>
+                    <ul>
+                        <li>AMANHÃ</li>
+                        <li>FUTURO</li>
+                        <li>DEPOIS</li>
+                        <li>PRÓXIMO</li>
+                    </ul>
+                </section>
             </section>
         </section>
     </main>
