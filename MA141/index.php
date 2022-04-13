@@ -50,7 +50,7 @@
                             a_{11} & 0 & \cdots & \cdots & 0 \\
                             a_{21} & a_{22} & 0 & \cdots & 0 \\
                             \vdots & & \vdots & & \vdots \\
-                            a_{\left(n+1\right)1} & a_{\left(n+1\right)1} & \cdots & cdots & a_{\left(n+1\right)\left(n+1\right)} \\ \\
+                            a_{\left(n+1\right)1} & a_{\left(n+1\right)1} & \cdots & \cdots & a_{\left(n+1\right)\left(n+1\right)} \\ \\
                             \end{bmatrix} \)
                         </p>
                         <p>\( detA = \sum_{k=1}^{n+1} a_{kk}ã_{kk} = a_{11}ã_{11} + \sum_{k=2}^{n+1} a_{kk}ã_{kk} = a_{11}ã_{11} + \sum_{k=2}^{n+1} 0\cdot ã_{kk} = a_{11}ã_{11}\)</p>
@@ -58,8 +58,8 @@
                     </section>
                 </section>
                 <section>
-                    <h4>Teorema sei lá</h4>
-                    <p><strong>Teorema:</strong> seja \(A\) uma matriz \(n\times n\) escrita em termos de suas linhas. Então:</p>
+                    <h4>Teorema</h4>
+                    <p>Seja \(A\) uma matriz \(n\times n\) escrita em termos de suas linhas. Então:</p>
                     <ol>
                         <li>
                             <p>
@@ -70,7 +70,7 @@
                             </p>
                         </li>
                         <li>
-                            <p>Se \(A\) tem duas linhas iguais então \(detA=0\)</p>
+                            <p>\(A_i=A_j, i \ne j \Rightarrow detA=0\)</p>
                         </li>
                         <li>
                             <p>\(det\left(I_n\right)=1\)</p>
@@ -89,34 +89,65 @@
                     </ol>
                 </section>
                 <section>
-                    <h4>outro teorema sei lá</h4>
+                    <h4>Teorema</h4>
                     <p>Sejam \( A=\left[a_{ij}\right]_{n\times n},~B=\left[b_{ij}\right]_{n\times n} \)</p>
                     <ol>
                         <li>
                             <p>
                                 Se B é obtida de A multiplicando uma linha por \(\alpha\in\mathbb{R}\) então:
                             </p>
-                            <p>\( detB=\alpha detA \)</p>
-                            <p>\( det\left(E_{i}\left(\alpha\right)A\right)=\alpha\cdot detA \)</p>
-                            <p>Em particular, \( detE_{i}\left(\alpha\right)=\alpha \)</p>
+                            <p>\( detB = det\left(E_{i}\left(\alpha\right)A\right) = \alpha\cdot detA \)</p>
                         </li>
                         <li>
                             <p>Se B é obtida de A por trocar duas linhas então:</p>
-                            <p>\( detB=-detA \)</p>
-                            <p>\( det\left(E_{ij}A\right)=-detA \)</p>
-                            <p>Em particular, \( detE_{ij}=-1 \)</p>
+                            <p>\( detB = det\left(E_{ij}A\right) = -detA \)</p>
                         </li>
                         <li>
                             <p>Se B é obtida de A substituindo uma linha por ela mesma somada a um múltiplo escalar de outra linha, então:</p>
-                            <p>\( detB=detA \)</p>
-                            <p>\( det\left(E_{ij}\left(\alpha\right)A\right)=detA \)</p>
-                            <p>Em particular, \( detE_{ij}\left(\alpha\right)=1 \)</p>
+                            <p>\( detB = det\left(E_{ij}\left(\alpha\right)A\right) = detA \)</p>
                         </li>
                     </ol>
                 </section>
                 <section>
-                    <h4>mais um teorema aí</h4>
+                    <h4>Teorema</h4>
                     <p>\( A=\left[a_{ij}\right]_{n\times n},~B=\left[b_{ij}\right]_{n\times n} \Rightarrow det\left(AB\right)detA\cdot detB\)</p>
+                </section>
+                <section>
+                    <h4>Corolário</h4>
+                    <p>\( detE_{i}\left(\alpha\right)=\alpha, ~ \alpha \ne 0 \)</p>
+                    <p>\( detE_{ij}=-1 \)</p>
+                    <p>\( detE_{ij}\left(\alpha\right)=1 \)</p>
+                </section>
+                <section>
+                    <h4>Corolário</h4>
+                    <p>\( detA \ne 0 \Leftrightarrow A \) é invertível</p>
+                    <section>
+                        <h5>Demonstração</h5>
+                        <p>Se A é invertível, sabemos que existem matrizes elementares \(E_1,E_2,\dots,E_k\) tais que:</p>
+                        <p>$$ A \cdot \prod_{r=1}^k E_r = I_n $$</p>
+                        <p>Logo:</p>
+                        <p>$$ detA \cdot \prod_{r=1}^k detE_r = detI_n = 1$$</p>
+                        <p>\(\therefore detA \ne 0 \)</p>
+                    </section>
+                </section>
+                <section>
+                    <h4>Teorema</h4>
+                    <p>\( A=\left(a_{ij}\right)_{n\times n}, ~ B=\left(b_{ij}\right)_{n\times n} \Rightarrow detAB = detA \cdot detB\)</p>
+                    <section>
+                        <h5>Demonstração</h5>
+                        <ol>
+                            <li>A é uma matriz elementar \( \Rightarrow A=E_r \Rightarrow det\left(AB\right) = det\left(E_r\right) \cdot detB = \{-detB,detB,\alpha\cdot detB\} \)</li>
+                            <li>A é invertível \(\Rightarrow A = \prod_{r=1}^k E_r \Rightarrow det\left(AB\right)=det\left(B\cdot \prod_{r=1}^k E_r\right)=detB \cdot \prod_{r=1}^k detE_r=detA\cdot detB \)</li>
+                        </ol>
+                    </section>
+                </section>
+                <section>
+                    <h4>Teorema</h4>
+                    <p>\( A=\left(a_{ij}\right)_{n\times n} \Rightarrow detA=det\left(A^t\right) \)</p>
+                    <section>
+                        <h5>Demonstração</h5>
+                        <p>Se A é uma matriz elementar</p>
+                    </section>
                 </section>
             </section>
         </section>
