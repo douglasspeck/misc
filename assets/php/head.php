@@ -14,7 +14,7 @@
 
             <!-- SEO -->
             <meta name="author" content="Douglas Speck">
-            <meta name="description" content="Registros pessoais do curso de Licenciatura em Matemática na Unicamp">
+            <meta name="description" content="' . $description . '">
             <meta name="keywords" content="' . $keywords . '">
             <link rel="canonical" href="' . $link . '">
 
@@ -22,7 +22,7 @@
 
             if (!isset($pass)) {$pass = false;};
 
-            if ($pass) {echo '<script src="../../assets/js/password.js"></script>';};
+            if ($pass) {echo '<script src="../assets/js/password.js"></script>';};
 
             for($i = 0; $i < count($resources); $i++) {
                 if ($resources[$i][0] == 'preload') {
@@ -49,7 +49,7 @@
             <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
             <!-- Stylesheets -->
-            <link rel="preload" as="style" onload="this.remove();" href="../../assets/php/stylesheets.php?t=' . date('YmdHis') . '" type="text/css">
+            <link rel="preload" as="style" onload="this.remove();" href="../assets/php/stylesheets.php?t=' . date('YmdHis') . '" type="text/css">
             <link rel="stylesheet" href="../../assets/php/stylesheets.php?t=' . date('YmdHis') . '" type="text/css">
             <noscript>
                 <link rel="stylesheet" href="../../assets/php/stylesheets.php?t=' . date('YmdHis') . '" type="text/css">

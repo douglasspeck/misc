@@ -2,12 +2,16 @@
 <html lang="pt-BR">
     <?php
         $title = 'EL683 – Escola e Cultura';
+        $description = 'Registros pessoais do curso de Licenciatura em Matemática na Unicamp';
         $keywords = '';
         $resources = [];
-        include '../assets/php/head.php';
+        include '../../assets/php/head.php';
     ?>
 <body>
-    <?php include '../assets/php/header.php' ?>
+    <?php
+        include '../assets/php/pages.php';
+        include '../../assets/php/header.php';
+    ?>
     <main>
         <header>
             <h1>
@@ -91,7 +95,7 @@
             </section>
             <section>
                 <h3>Dar a ver, dar a pensar: contra o domínio do automático</h3>
-                <p><a href="../assets/docs/Dar-a-ver-dar-a-pensar.pdf" title="Artigo" target="_blank">Referência Bibliográfica</a></p>
+                <p><a href="../../assets/docs/Dar-a-ver-dar-a-pensar.pdf" title="Artigo" target="_blank">Referência Bibliográfica</a></p>
                 <blockquote>
                     <p>Passamos o dia a olhar, mas seremos capazes de ver algo? Que relação existe entre ver e pensar? E em que sentido a percepção é um problema político?</p>
                     <cite>FERNÁNDEZ-SAVATER, Amador</cite>
@@ -123,7 +127,7 @@
             </section>
             <section>
                 <h3>E-ducando o Olhar: a necessidade de uma pedagogia pobre</h3>
-                <p><a href="../assets/docs/E-ducando-o-Olhar.pdf" title="Artigo" target="_blank">Referência Bibliográfica</a></p>
+                <p><a href="../../assets/docs/E-ducando-o-Olhar.pdf" title="Artigo" target="_blank">Referência Bibliográfica</a></p>
                 <p>O autor propõe dois sentidos diferentes para a <strong>educação do olhar:</strong> no sentido de ensinar (<i lang="la">educare</i>), revelar a verdade, despertar; e no ensino (<i lang="la">e-ducere</i>) de olhar pra fora, prestar atenção.</p>
                 <p>O autor compara o caminhar com um sobrevoo. Caminhar exige abandonar o olhar já visto, mudar a perspectiva.</p>
                 <blockquote>
@@ -152,6 +156,6 @@
             </section>
         </section>
         </main>
-    <?php include '../assets/php/scripts.php' ?>
+    <?php include '../../assets/php/scripts.php' ?>
 </body>
 </html>

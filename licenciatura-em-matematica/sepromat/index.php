@@ -2,6 +2,7 @@
 <html lang="pt-BR">
     <?php
         $title = 'Semana do Professor de Matemática';
+        $description = 'Registros pessoais do curso de Licenciatura em Matemática na Unicamp';
         $keywords = '';
         $resources = [];
         $pass = true;
