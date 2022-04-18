@@ -18,13 +18,11 @@
                 <span class="tag">MA141</span>
                 <span class="subject">Geometria Analítica e Vetores</span>
             </h1>
-            <details class="header-details">
-                <summary>Professor Pedro</summary>
-                <div class="details-content">
-                    <p></p>
-                </div>
-            </details>
         </header>
+        <section>
+            <h2>Docente</h2>
+            <p><strong>Nome:</strong> Pedro</p>
+        </section>
         <section>
             <h2>Aula introdutória</h2>
             <blockquote class="high-quote">prova impressa é foda</blockquote>

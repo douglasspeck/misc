@@ -18,15 +18,13 @@
                 <span class="tag">MA104</span>
                 <span class="subject">Seminários sobre o ensino de Matemática</span>
             </h1>
-            <details class="header-details">
-                <summary>Professor Marcelo Firer</summary>
-                <div class="details-content">
-                    <p></p>
-                    <p><strong>E-mail:</strong> <a href="mailto:mfirer@unicamp.br" target="_blank">mfirer@unicamp.br</a></p>
-                    <p><strong>Sala:</strong> 312</p>
-                </div>
-            </details>
         </header>
+        <section>
+            <h2>Docente</h2>
+            <p><strong>Nome:</strong> Professor Marcelo Firer</p>
+            <p><strong>E-mail:</strong> <a href="mailto:mfirer@unicamp.br" target="_blank">mfirer@unicamp.br</a></p>
+            <p><strong>Sala:</strong> 312</p>
+        </section>
         <section>
             <h2>Sobre a Disciplina</h2>
             <p>MA104 é a única disciplina do primeiro semestre voltada ao <strong>ensino</strong> de matemática.</p>

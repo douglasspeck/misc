@@ -18,13 +18,11 @@
                 <span class="tag">EL683</span>
                 <span class="subject">Escola e Cultura</span>
             </h1>
-            <details class="header-details">
-                <summary>Professor Carlos Eduardo Albuquerque Miranda</summary>
-                <div class="details-content">
-                    <p></p>
-                </div>
-            </details>
         </header>
+        <section>
+            <h2>Docente</h2>
+            <p><strong>Nome:</strong> Carlos Eduardo Albuquerque Miranda</p>
+        </section>
         <section>
             <h2>Primeira Aula</h2>
             <p>Bom, eu cheguei meio atrasado, então perdi o começo. Cheguei no meio da discussão a respeito de cinema.</p>

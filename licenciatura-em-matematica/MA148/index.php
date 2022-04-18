@@ -18,13 +18,11 @@
                 <span class="tag">MA148</span>
                 <span class="subject">Fundamentos da Matemática</span>
             </h1>
-            <details class="header-details">
-                <summary>Professora Laura Rifo</summary>
-                <div class="details-content">
-                    <p></p>
-                </div>
-            </details>
         </header>
+        <section>
+            <h2>Docente</h2>
+            <p><strong>Nome:</strong> Laura Rifo</p>
+        </section>
         <section>
             <h2>Aula introdutória</h2>
             <ul>

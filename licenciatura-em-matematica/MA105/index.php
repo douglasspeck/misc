@@ -18,13 +18,11 @@
                 <span class="tag">MA105</span>
                 <span class="subject">Matemática Elementar</span>
             </h1>
-            <details class="header-details">
-                <summary>Professor Mahendra</summary>
-                <div class="details-content">
-                    <p></p>
-                </div>
-            </details>
         </header>
+        <section>
+            <h2>Docente</h2>
+            <p><strong>Nome:</strong> Mahendra Panthee</p>
+        </section>
         <section>
             <h2>Sobre o curso</h2>
             <ul>
@@ -94,7 +92,7 @@
             </section>
         </section>
         <section>
-            <h3>Sequências</h3>
+            <h2>Sequências</h2>
             <p><dfn>Sequências</dfn> (\(S\)) são listas ordenadas de elementos de certo conjunto.</p>
             <p>Podem ser definidas como uma função com domínio contido nos números naturais, isto é:</p>
             <p>$$ A=D\left(S\right) = \{a\mid a\in\mathbb{N}\} $$</p>
@@ -105,10 +103,10 @@
                 <p>Na matemática, como a gente sempre pensa...</p>
             </blockquote>
             <section>
-                <h4>Termo geral</h4>
+                <h3>Termo geral</h3>
                 <p>Quando há uma lei de formação para as sequências, é possível denotar o chamado <dfn>termo geral</dfn>, que é uma expressão algébrica em função da posição do termo (valor em \( A \)). O termo geral também é chamado de <strong>n-ésimo</strong> termo, pois denota o valor do termo de posição \( n \).</p>
                 <section>
-                    <h5>Exemplo:</h5>
+                    <h4>Exemplo:</h4>
                     <p>Ache os 3 primeiros termos e o vigésimo termo das sequências:</p>
                     <ol type="a">
                         <li>\( ai = 5i - 100 \)
@@ -131,33 +129,38 @@
                 </section>
             </section>
             <section>
-                <h4>Lei de formação alternativa</h4>
+                <h3>Lei de formação alternativa</h3>
                 <p>É possível encontrar o termo geral da sequência conhecendo o n-ésimo termo e seu antecessor.</p>
             </section>
             <section>
-                <h4>Fatorial</h4>
+                <h3>Fatorial</h3>
                 <p>Definimos fatorial de \( n \), denotado por \( n! \) como sendo o produto de todos os naturais de \( 1 \) a \( n \). Isto é: \( n! = \prod_{k=1}^{n} k \)</p>
             </section>
             <section>
-                <h4>Soma dos termos de uma sequência finita</h4>
-                <p>Podemos denotar a soma dos termos de uma sequência finita através de um somatório:</p>
-                <p>$$ \sum_{i=1}^n a_i = a_1 + a_2 + a_3 + \dots + a_n $$</p>
+                <h3>Progressões Aritméticas</h3>
+                <p>Uma sequência (ou progressão) é chamada de <dfn>Progressão Aritmética</dfn> se \( a_n - a_{n-1} = r \) para qualquer índice \(n\) da sequência.</p>
+                <p>Essa diferença \(r\) é denominada <strong>razão</strong> da <abbr title="Progressão Aritmética">P.A.</abbr></p>
+                <p>$$ a_n = a_1 + \left( n-1\right)r $$</p>
                 <section>
-                    <h5>Propriedades:</h5>
-                    <ul>
-                        <li>\( \sum_{i=1}^n \left(a_i + b_i\right) = \sum_{i=1}^n a_i + \sum_{i=1}^n b_i \)</li>
-                        <li>\( \sum_{i=1}^n \left(k \cdot a_i\right) = k \cdot \sum_{i=1}^n a_i \)</li>
-                    </ul>
-                </section>
-                <section>
-                    <h5>Somatórios notáveis:</h5>
-                    <ul>
-                        <li>\( \sum_{i=1}^n 1 = n \)</li>
-                        <li>\( \sum_{i=1}^n k = kn \)</li>
-                        <li>\( \sum_{i=1}^n i = \dfrac{n\left(n+1\right)}{2} \)</li>
-                        <li>\( \sum_{i=1}^n i^2 = \dfrac{n\left(n+1\right)\left(2n+1\right)}{6} \)</li>
-                        <li>\( \sum_{i=1}^n i = \left(\dfrac{n\left(n+1\right)}{2}\right)^2 = \dfrac{n^2\left(n+1\right)^2}{4} \)</li>
-                    </ul>
+                    <h4>Soma dos termos de uma sequência finita</h4>
+                    <p>Podemos denotar a soma dos termos de uma sequência finita através de um somatório:</p>
+                    <p>$$ \sum_{i=1}^n a_i = a_1 + a_2 + a_3 + \dots + a_n $$</p>
+                    <section>
+                        <h5>Propriedades:</h5>
+                        <ul>
+                            <li>\( \sum_{i=1}^n \left(a_i + b_i\right) = \sum_{i=1}^n a_i + \sum_{i=1}^n b_i \)</li>
+                            <li>\( \sum_{i=1}^n \left(k \cdot a_i\right) = k \cdot \sum_{i=1}^n a_i \)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h5>Somatórios notáveis:</h5>
+                        <ul>
+                            <li>\( \sum_{i=1}^n 1 = n \)</li>
+                            <li>\( \sum_{i=1}^n k = kn \)</li>
+                            <li>\( \sum_{i=1}^n i = \dfrac{n\left(n+1\right)}{2} \)</li>
+                            <li>\( \sum_{i=1}^n i^2 = \dfrac{n\left(n+1\right)\left(2n+1\right)}{6} \)</li>
+                        </ul>
+                    </section>
                 </section>
             </section>
         </section>
