@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #menu > a, #menu > a:hover, #menu > a:focus {
@@ -82,7 +82,8 @@
 
 #menu > nav {
     max-height: 85vh;
-    min-height: calc(40 * var(--x));
+    justify-content: flex-start;
+    gap: var(--x);
     padding-bottom: 4vh;
 }
 
