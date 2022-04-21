@@ -163,6 +163,16 @@
                     </section>
                 </section>
             </section>
+            <section>
+                <h3>Progressões Geométricas</h3>
+                <p>Uma sequência (ou progressão) é chamada de <dfn>Progressão Geométrica</dfn> se \( \dfrac{a_n}{a_{n-1}} = r \) para qualquer índice \(n\) da sequência.</p>
+                <p>\(r\) é denominado <strong>razão</strong> da <abbr title="Progressão Geométrica">P.G.</abbr></p>
+                <p>$$ a_n = a_1 \cdot r^{n-1} $$</p>
+                <section>
+                    <h4>Soma dos termos de uma <abbr title="Progressão Geométrica">P.G.</abbr></h4>
+                    <p class="center">\( S_n = \dfrac{a_1\left(r^n-1\right)}{r-1} ~\) ou \(~ S_n = \dfrac{a_n r - a_1}{r-1} \)</p>
+                </section>
+            </section>
         </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
