@@ -462,6 +462,44 @@
                 </section>
             </section>
         </section>
+        <section>
+            <h2>Educação de Surdos</h2>
+            <section>
+                <h3>Legislação</h3>
+                <ol>
+                    <li><strong>Lei 10.436/2002</strong>: reconhece oficialmente a Libras</li>
+                    <li><strong>Decreto 5.626/2005</strong>: regulamenta, dentro outros aspectos, a educação de surdos.</li>
+                    <li><strong>Decreto 10.502/2020</strong>: institui a atual Política Nacional de Educação Especial</li>
+                    <li><strong>Lei 14.191/2021</strong>: altera a LDB (1996) para dispor sobre a modalidade de educação bilíngue de surdos</li>
+                    <li><strong>Declaração de Salamanca</strong><: /li>
+                </ol>
+            </section>
+            <section>
+                <h3>Aspectos importantes</h3>
+                <ol>
+                    <li>Considerar a diversidade na diferença</li>
+                    <li>Considerar que a Libras é a L1 e o português é a L2 para os surdos.</li>
+                    <li>Há necessidade de estratégias e metodologias de ensino diferenciadas.</li>
+                    <li>Compreender o papel do intérprete</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Língua de sinais na sala de aula</h3>
+                <p>São necessárias estratégias de comunicação e de ensino diferenciadas.</p>
+                <ul>
+                    <li>Qual atividade vai ser boa (ou não)?</li>
+                    <li>Qual atividade vai incluir o surdo?</li>
+                    <li>Como serão as discussões entre alunos surdos e ouvintes?
+                        <ul>
+                            <li>Ouvintes devem aprender Libras?</li>
+                        </ul>
+                    </li>
+                    <li>Em quais momentos a Libras é utilizada?</li>
+                    <li>Como se dá a relação dos surdos com a escola?</li>
+                    <li>Em atividades em grupo, como organizar a sala?</li>
+                </ul>
+            </section>
+        </section>
     </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>
