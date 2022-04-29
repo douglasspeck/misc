@@ -133,7 +133,7 @@
                 </blockquote>
                 <p>O autor faz uma forte crítica à noção de "fim da linha", de uma terra prometida, tanto na perspectiva religiosa quanto marxista (teleológica).</p>
                 <blockquote>
-                    <p>Teorias tem que vir todas. [...] Mas não se aposta que a aplicação da teoria é a solução dos problemas.</p>
+                    <p>Teorias têm que vir todas. [...] Mas não se aposta que a aplicação da teoria é a solução dos problemas.</p>
                 </blockquote>
                 <ul>
                     <li>Quanto maior a crise, mais o capital se concentra.
@@ -151,6 +151,28 @@
                     <h4>Como deixar o olhar vago e guiar-se pela experiência em um sistema que nos exige o oposto?</h4>
                     <p>É importante fazer um acompanhamento por relato subjetivo (apesar de a subjetividade ser construída socialmente), um estudo do meio.</p>
                 </section>
+            </section>
+        </section>
+        <section>
+            <h2>Primeira Aula Presencial</h2>
+            <ul>
+                <li>Experiência <span class="arr-r"></span> conteúdo</li>
+                <li>Instâncias formadoras
+                    <ul>
+                        <li>
+                            instâniacia pessoal: família
+                        </li>
+                        <li>instância coletiva: escola</li>
+                    </ul>
+                </li>
+                <li>Disciplinarização do ensino.</li>
+                <li><q>Todo mundo pode fazer arte, mas profissionalmente...</q></li>
+                <li>A cultura é um fenômeno social.</li>
+            </ul>
+            <blockquote><p>Vocês podem me perguntar: 'onde está a verdade?' e eu posso te perguntar 'onde está a verdade?'. Em um mundo de <i lang="en">fake news</i>, onde está a verdade?</p></blockquote>
+            <section>
+                <h3>Minuto Lumière</h3>
+                <p>Até 1 minuto: pode ser time-lapse?</p>
             </section>
         </section>
         </main>
