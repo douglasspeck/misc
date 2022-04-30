@@ -153,6 +153,15 @@
                 </section>
             </section>
         </section>
+        <section>
+            <h2>Vetores</h2>
+            <section>
+                <h3>Operações com Vetores</h3>
+                <section>
+                    <h4>Soma e subtração de vetores</h4>
+                </section>
+            </section>
+        </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>
