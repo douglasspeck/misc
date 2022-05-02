@@ -65,50 +65,38 @@
             <h2>Introdução</h2>
             <section>
                 <h3>Prática de Libras</h3>
-                <section>
-                    <h4>Sinais Estudados</h4>
-                    <ul>
-                        <?php
-                            $sinais = ['olá','nome', 'idade'];
-                            include '../../assets/php/sinais.php';
-                        ?>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Informações Adicionais</h4>
-                    <ul>
-                        <li>Na <dfn>datilologia</dfn> (soletração <strong>manual</strong>), os sinais são, via de regra, feitos com a palma da mão <strong>para a frente</strong>.
-                            <ul>
-                                <li>Os números, por outro lado, são sinalizados, via de regra, com a palma da mão virada <strong>para trás</strong>.</li>
-                                <li>Ainda quanto aos números, é importante atentar-se ao fato de que há <strong>varios modelos numéricos</strong>, que diferenciam os números "comuns" de quantidades.</li>
-                            </ul>
-                        </li>
-                        <li>Na datilologia, é possível fazer um movimento de dentro para fora ou manter a mão parada.
-                            <ul>
-                                <li>No caso da repetição de letras, é feito um movimento de <strong>arrastar</strong> (de dentro para fora, mais comum) ou de repetição (aproximação e afastamento, menos comum).</li>
-                            </ul>
-                        </li>
-                        <li>No caso de palavras/nomes compostos, usa-se o sinal de <a href="sinais/espaço.php" target="sinais">Espaço</a>.</li>
-                        <li>Para representar a acentuação, "desenha-se" o acento <strong>após</strong> a letra.</li>
-                        <li>É importante atentar-se ao <strong><dfn>Espaço de sinalização</dfn></strong>, que é a área visual em que devemos produzir os sinais.</li>
-                        <li>Entonação é apontada por expressões faciais <strong>e corporais</strong>.
-                            <ul>
-                                <li>
-                                    No caso de uma <strong>pergunta</strong>, o padrão é franzir a testa e movimentar a cabeça.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>Via de regra, dá pra suprimir o "eu" (e outros pronomes da primeira pessoa) das frases, porque <strong>o corpo que sinaliza já é o do indivíduo</strong>.</li>
-                    </ul>
-                    <blockquote class="high-quote">
-                        <p>Libras é uma língua visual, gestual e espacial</p>
-                    </blockquote>
-                    <ul>
-                        <li>Alfabeto Manual</li>
-                        <li>Sinais</li>
-                        <li>Classificadores</li>
-                    </ul>
-                </section>
+                <ul>
+                    <li>Na <dfn>datilologia</dfn> (soletração <strong>manual</strong>), os sinais são, via de regra, feitos com a palma da mão <strong>para a frente</strong>.
+                        <ul>
+                            <li>Os números, por outro lado, são sinalizados, via de regra, com a palma da mão virada <strong>para trás</strong>.</li>
+                            <li>Ainda quanto aos números, é importante atentar-se ao fato de que há <strong>varios modelos numéricos</strong>, que diferenciam os números "comuns" de quantidades.</li>
+                        </ul>
+                    </li>
+                    <li>Na datilologia, é possível fazer um movimento de dentro para fora ou manter a mão parada.
+                        <ul>
+                            <li>No caso da repetição de letras, é feito um movimento de <strong>arrastar</strong> (de dentro para fora, mais comum) ou de repetição (aproximação e afastamento, menos comum).</li>
+                        </ul>
+                    </li>
+                    <li>No caso de palavras/nomes compostos, usa-se o sinal de <strong>Espaço</strong>.</li>
+                    <li>Para representar a acentuação, "desenha-se" o acento <strong>após</strong> a letra.</li>
+                    <li>É importante atentar-se ao <strong><dfn>Espaço de sinalização</dfn></strong>, que é a área visual em que devemos produzir os sinais.</li>
+                    <li>Entonação é apontada por expressões faciais <strong>e corporais</strong>.
+                        <ul>
+                            <li>
+                                No caso de uma <strong>pergunta</strong>, o padrão é franzir a testa e movimentar a cabeça.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Via de regra, dá pra suprimir o "eu" (e outros pronomes da primeira pessoa) das frases, porque <strong>o corpo que sinaliza já é o do indivíduo</strong>.</li>
+                </ul>
+                <blockquote class="high-quote">
+                    <p>Libras é uma língua visual, gestual e espacial</p>
+                </blockquote>
+                <ul>
+                    <li>Alfabeto Manual</li>
+                    <li>Sinais</li>
+                    <li>Classificadores</li>
+                </ul>
             </section>
             <section>
                 <h3>A surdez em números</h3>
@@ -306,28 +294,6 @@
                     <li>Sinais de Família/Parentesco</li>
                     <li>Verbos mais usados</li>
                     <li>Conectivo "e" é substituído por "TAMBÉM"</li>
-                    <li>Profissão/prática</li>
-                    <li>Profissional</li>
-                    <li>Curso/cursar</li>
-                    <li>Disciplina/Matéria</li>
-                    <li>Licenciatura</li>
-                    <li>Professor</li>
-                    <li>Morar/Casa</li>
-                    <li>Cidade</li>
-                    <li>Bairro</li>
-                    <li>Rua</li>
-                    <li>Avenida</li>
-                    <li>País</li>
-                    <li>Barão Geraldo</li>
-                    <li>Campinas</li>
-                    <li>São Paulo</li>
-                    <li>Junto</li>
-                    <li>Gato</li>
-                    <li>Cachorro</li>
-                    <li>Dia/Data</li>
-                    <li>Aniversário</li>
-                    <li>Nascimento</li>
-                    <li>Festa</li>
                 </ul>
             </section>
             <section>
@@ -498,6 +464,48 @@
                     <li>Como se dá a relação dos surdos com a escola?</li>
                     <li>Em atividades em grupo, como organizar a sala?</li>
                 </ul>
+            </section>
+            <section>
+                <h3>Estratégias de Ensino para alunos Surdos</h3>
+                <ul>
+                    <li>Elementos visuais
+                        <ul>
+                            <li>Maquete</li>
+                            <li>Filme</li>
+                            <li>Fotografia</li>
+                            <li>Mapa</li>
+                            <li>Desenho</li>
+                            <li>Slide</li>
+                            <li>Mapa Conceitual</li>
+                            <li>Materiais diversos
+                                <ul>
+                                    <li>Material Dourado</li>
+                                    <li>Tan Gram</li>
+                                    <li>Outros jogos</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Semiótica e Imagética</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Política Linguística dominante</h3>
+                <ol>
+                    <li>Marquês de Pombal: proibição das línguas indígenas</li>
+                    <li>Estado Novo: proibição das línguas inimigas (alemão, japonês e italiano)</li>
+                    <li>Política Oralista por mais de dois séculos</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Português Surdo</h3>
+                <p>Muitos autores focam apenas nos erros, como:</p>
+                <ul>
+                    <li>Palavras inadequadas</li>
+                    <li>Omissão de palavras</li>
+                    <li>Mudança na estrutura das frases</li>
+                </ul>
+                <p>Mas é importante considerar que a mensagem é passada. Temos que olhar para o processo, não para o produto final.</p>
             </section>
         </section>
     </main>

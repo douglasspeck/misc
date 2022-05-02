@@ -324,6 +324,72 @@
             "m" : "batidas intermitentes",
             "o" : "para o lado",
             "enm" : null
+        },
+        {
+            "sign" : "Profissão/prática"
+        },
+        {
+            "sign" : "Profissional"
+        },
+        {
+            "sign" : "Curso/cursar"
+        },
+        {
+            "sign" : "Disciplina/Matéria"
+        },
+        {
+            "sign" : "Licenciatura"
+        },
+        {
+            "sign" : "Professor"
+        },
+        {
+            "sign" : "Morar/Casa"
+        },
+        {
+            "sign" : "Cidade"
+        },
+        {
+            "sign" : "Bairro"
+        },
+        {
+            "sign" : "Rua"
+        },
+        {
+            "sign" : "Avenida"
+        },
+        {
+            "sign" : "País"
+        },
+        {
+            "sign" : "Barão Geraldo"
+        },
+        {
+            "sign" : "Campinas"
+        },
+        {
+            "sign" : "São Paulo"
+        },
+        {
+            "sign" : "Junto"
+        },
+        {
+            "sign" : "Gato"
+        },
+        {
+            "sign" : "Cachorro"
+        },
+        {
+            "sign" : "Dia/Data"
+        },
+        {
+            "sign" : "Aniversário"
+        },
+        {
+            "sign" : "Nascimento"
+        },
+        {
+            "sign" : "Festa"
         }
     ]
 }
