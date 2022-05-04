@@ -304,6 +304,21 @@
                 <p><strong>Lição de casa:</strong> \(c_n = a_n\) para todo \(n\in\mathbb{N}\)</p>
             </section>
         </section>
+        <section>
+            <h2>Conjuntos</h2>
+            <p><strong>Definição.</strong> <dfn>Um Conjunto</dfn> é uma coleção de objetos.</p>
+            <p><strong>Definição.</strong> Os objetos de um conjunto são chamados de <dfn>membros</dfn> ou <dfn>elementos</dfn> do conjunto.</p>
+            <p>Em símbolos, um elemento \(x\) de um conjunto \(A\) é denotado \(x \in A\). Lemos "\(x\) pertence ao conjunto \(A\) ou "\(x\) é elemento de \(A\)". Se um objeto \(x\) não pertence ao conjunto \(A\), escrevemos \(x \not\in A \)</p>
+            <p><strong>Definição. </strong> Um <dfn>Predicado</dfn> é uma afirmação que é claramente verdadeira ou claramente falsa quanto aplicada a um objeto \(x \in A \).</p>
+            <section>
+                <h3>Subconjuntos</h3>
+                <p><strong>Definição. </strong> \( B \subseteq A \Leftrightarrow \left( \forall x, x \in B \Rightarrow x \in A \right) \)</p>
+            </section>
+            <section>
+                <h3>Igualdade de conjuntos</h3>
+                <p><strong>Definição. </strong> \(A=B \Leftrightarrow A \subseteq B \land B \subseteq A \)</p>
+            </section>
+        </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>
