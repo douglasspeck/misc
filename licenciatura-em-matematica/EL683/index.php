@@ -175,6 +175,11 @@
                 <p>Até 1 minuto: pode ser time-lapse?</p>
             </section>
         </section>
+        <section>
+            <h2>Liturgias (rituais) das escolas</h2>
+            <blockquote><p>Aqui respeita a lei.</p></blockquote>
+            <blockquote><p>Existem coisas que transcendem o tempo [...] e eles estão dentro de você.</p></blockquote>
+        </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>
