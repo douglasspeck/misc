@@ -174,6 +174,33 @@
                 </section>
             </section>
         </section>
+        <section>
+            <h2>Logaritmo e Exponencial</h2>
+            <section>
+                <h3>Soluções de Equações Exponenciais e Logarítmicas</h3>
+                <ul>
+                    <p><strong>Lembretes:</strong></p>
+                    <li>\( a > 0 \)</li>
+                    <li>A função exponencial é sempre injetiva.</li>
+                </ul>
+                <section>
+                    <h4>Roteiro para resolver equações exponenciais</h4>
+                    <ul>
+                        <li>Escrava na forma correta a equação</li>
+                        <li>Aplique logaritmo em ambos os lados com a base adequada</li>
+                        <li>Simplifique usando propriedades</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Roteiro para resolver equações logarítmicas</h4>
+                    <ul>
+                        <li>Escrava na forma correta a equação</li>
+                        <li>Aplique logaritmo em ambos os lados com a base adequada</li>
+                        <li>Simplifique usando propriedades</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
         </main>
     <?php include '../../assets/php/scripts.php' ?>
 </body>

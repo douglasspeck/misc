@@ -316,7 +316,24 @@
             </section>
             <section>
                 <h3>Igualdade de conjuntos</h3>
-                <p><strong>Definição. </strong> \(A=B \Leftrightarrow A \subseteq B \land B \subseteq A \)</p>
+                <p><strong>Teorema. </strong> \(A=B \Leftrightarrow A \subseteq B \land B \subseteq A \)</p>
+                <p><strong>Prova. </strong></p>
+                <p>\(\Rightarrow)\) Queremos provar que se \( \underbrace{A=B}_{hipótese = supondo~verdadeiro} \) então \( \underbrace{\left(A \subseteq B \land B \subseteq A\right)}_{tese = queremos~provar~verdadeiro} \)</p>
+                <p>\( \left(A=B\right) \land \left(A \subseteq B\right) \Rightarrow A \subseteq B \land B \subseteq A \)</p>
+                <p>\(\Leftarrow)\) Queremos provar que se \( \left(A \subseteq B \land B \subseteq A\right) \) então \(A=B\)</p>
+                <p>Sabemos que dois conjuntos são iguais quando têm os mesmos elementos. Assim,devemos provar que \(A\) e \(B\) têm os mesmos elementos.</p>
+                <p>\( \left(x \in A\right) \land \left(A \subseteq B\right) \Rightarrow x \in B \)</p>
+                <p>\( \left(y \in B\right) \land \left(B \subseteq A\right) \Rightarrow y \in A \)</p>
+                <p>Assim, \(A\) e \(B\) têm os mesmos elementos, ou seja, \(A=B\)</p>
+            </section>
+            <section>
+                <h3>Conjunto Vazio</h3>
+                <p><strong>Definição. </strong> dizemos que um conjunto é vazio se não tem elementos.</p>
+                <p><strong>Teorema. </strong>Dado um conjunto \(A\) e \(E\) um conjunto vazio, então \(E\) é subconjunto de \(A\), \(E \subseteq A\)</p>
+                <p><strong>Prova. </strong></p>
+                <p>\( \neg\left(E \subseteq A\right) \Leftrightarrow E \not\subseteq A \Rightarrow \exists x \in E : x \not\in A \)</p>
+                <p>\( \not\exists x \in E \Rightarrow \not\exists x \in E : x \not\in A \Leftrightarrow \neg\left( \exists x \in E : x \not\in A \right) \Rightarrow E \subseteq A \)</p>
+                <p><strong>Definição. </strong> sabendo que o conjunto vazio é único, daqui em diante, podemos falar em <strong>o</strong> conjunto vazio, cuja notação é \( \Phi \) ou \( \{\} \).</p>
             </section>
         </section>
         </main>
