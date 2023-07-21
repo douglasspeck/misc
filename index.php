@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <?php
-        $title = 'Licenciatura em Matemática';
-        $description = 'Registros pessoais do curso de Licenciatura em Matemática na Unicamp';
+        $title = 'Tres Doug';
+        $description = '';
         $keywords = '';
         $resources = [];
         include 'assets/php/head.php';
