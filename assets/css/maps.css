@@ -53,15 +53,3 @@ svg path:hover {
 svg:has(path:hover) path:not(:hover) {
     fill-opacity: 0.25;
 }
-
-svg path:hover::before {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 100px;
-    background-color: red;
-    content: "teste!";
-    transform: translateY(-100%);
-}
