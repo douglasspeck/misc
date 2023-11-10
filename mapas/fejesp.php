@@ -9,8 +9,8 @@
     ?>
 <body>
     <main>
-        <h1>Núcleo Campinas</h1>
-        <?php echo(file_get_contents("../assets/img/nuca.svg")) ?>
+        <h1>FEJESP</h1>
+        <?php echo(file_get_contents("../assets/img/sp.svg")) ?>
     </main>
 </body>
 </html>
