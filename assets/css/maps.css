@@ -1,3 +1,14 @@
+:root {
+    --fill-0: #ffffff;
+    --fill-1: #ff8888;
+    --fill-2: #ff8822;
+    --fill-3: #ffbb44;
+    --nuca: #61e1a4;
+    --baunuc: #e25b00;
+    --nusc: #6e42a1;
+    --nsp: #fe1a80;
+}
+
 body, main {
     width: 100vw;
     height: 100vh;
@@ -8,10 +19,10 @@ body, main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 5vh;
     padding: 0;
     margin: 0 0 1em;
@@ -26,23 +37,23 @@ svg path {
     stroke: #222222;
     stroke-width: 0.1;
     fill-opacity: 0.5;
-    fill: inherit;
+    fill: var(--fill, inherit);
 }
 
 #nuca {
-    fill: #61e1a4;
+    --fill: var(--nuca);
 }
 
 #baunuc {
-    fill: #e25b00;
+    --fill: var(--baunuc);
 }
 
 #nusc {
-    fill: #6e42a1;
+    --fill: var(--nusc);
 }
 
 #nsp {
-    fill: #fe1a80;
+    --fill: var(--nsp);
 }
 
 svg path:hover {
@@ -52,4 +63,128 @@ svg path:hover {
 
 svg:has(path:hover) path:not(:hover) {
     fill-opacity: 0.25;
+}
+
+#map-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: start;
+    margin: 0;
+}
+
+#map-menu * {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#map-menu > input {
+    margin: 1px 1ch 0 0;
+}
+
+#map-menu > label > ul > li {
+    margin-left: 1em;
+    padding-top: 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5em;
+}
+
+#map-menu > label > ul > li::marker {
+    content: "";
+}
+
+input:not(:checked) + label > ul { display: none; }
+
+#map-menu > label > ul > li::before {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #000;
+    border-radius: 1em;
+}
+
+#map-menu > label > ul > li:nth-child(1)::before { background-color: var(--fill-0); }
+#map-menu > label > ul > li:nth-child(2)::before { background-color: var(--fill-1); }
+#map-menu > label > ul > li:nth-child(3)::before { background-color: var(--fill-2); }
+#map-menu > label > ul > li:nth-child(4)::before { background-color: var(--fill-3); }
+
+/* MAPA DE IES */
+
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="0"] {
+    --fill: var(--fill-0);
+}
+
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="1"],
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="2"],
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="3"] {
+    fill: var(--fill-1);
+}
+
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="4"],
+#map-menu:has(#input-IES:checked) ~ svg path[data-ies="5"] {
+    fill: var(--fill-2);
+}
+
+/* MAPA DE AGENTES */
+
+#map-menu:has(#input-agentes:checked) ~ svg path[data-agentes="0"] {
+    --fill: var(--fill-0);
+}
+
+#map-menu:has(#input-agentes:checked) ~ svg path[data-agentes="1"],
+#map-menu:has(#input-agentes:checked) ~ svg path[data-agentes="2"] {
+    fill: var(--fill-1);
+}
+
+#map-menu:has(#input-agentes:checked) ~ svg path[data-agentes="3"],
+#map-menu:has(#input-agentes:checked) ~ svg path[data-agentes="4"] {
+    fill: var(--fill-2);
+}
+
+/* MAPA DE EJS x IES */
+
+#input-ejs-x-ies:checked + label > ul > li:nth-child(1)::before { background-color: var(--nuca); opacity: 0; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(2)::before { background-color: var(--nuca); opacity: 0.2; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(3)::before { background-color: var(--nuca); opacity: 0.4; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(4)::before { background-color: var(--nuca); opacity: 0.6; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(5)::before { background-color: var(--nuca); opacity: 0.8; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(6)::before { background-color: var(--nuca); opacity: 1; }
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ies="0"] {
+    display: none; 
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path {
+    --fill: inherit;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0"] {
+    fill-opacity: 0;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,2"] {
+    fill-opacity: 0.2;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,4"] {
+    fill-opacity: 0.4;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,6"] {
+    fill-opacity: 0.6;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,8"] {
+    fill-opacity: 0.8;
+}
+
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="1"] {
+    fill-opacity: 1;
 }
