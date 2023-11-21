@@ -4,6 +4,10 @@
     --fill-2: #ff8822;
     --fill-3: #ffbb44;
     --nuca: #61e1a4;
+    --nuca-8: #85e6b8;
+    --nuca-6: #97e8c2;
+    --nuca-4: #a8eacc;
+    --nuca-2: #cbeee0;
     --baunuc: #e25b00;
     --nusc: #6e42a1;
     --nsp: #fe1a80;
@@ -40,19 +44,19 @@ svg path {
     fill: var(--fill, inherit);
 }
 
-#nuca {
+#nuca, path[data-nucleo="nuca"] {
     --fill: var(--nuca);
 }
 
-#baunuc {
+#baunuc, path[data-nucleo="baunuc"] {
     --fill: var(--baunuc);
 }
 
-#nusc {
+#nusc, path[data-nucleo="nusc"] {
     --fill: var(--nusc);
 }
 
-#nsp {
+#nsp, path[data-nucleo="nsp"] {
     --fill: var(--nsp);
 }
 
@@ -61,7 +65,7 @@ svg path:hover {
     position: relative;
 }
 
-svg:has(path:hover) path:not(:hover) {
+svg:has(path:hover) > path:not(:hover) {
     fill-opacity: 0.25;
 }
 
@@ -71,9 +75,10 @@ svg:has(path:hover) path:not(:hover) {
     left: 0;
     padding: 5vh;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2vw auto;
     align-items: start;
     margin: 0;
+    width: 15vw;
 }
 
 #map-menu * {
@@ -82,8 +87,23 @@ svg:has(path:hover) path:not(:hover) {
     line-height: 1em;
 }
 
+#map-menu > button {
+    grid-column: 1/3;
+    margin-top: 1rem;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: .15em 0;
+    cursor: pointer;
+}
+
 #map-menu > input {
-    margin: 1px 1ch 0 0;
+    margin: calc(0.5em + 3px) 1ch 0 0;
+}
+
+#map-menu > label {
+    margin-top: 0.5em;
 }
 
 #map-menu > label > ul > li {
@@ -106,6 +126,7 @@ input:not(:checked) + label > ul { display: none; }
     display: block;
     width: 1em;
     height: 1em;
+    aspect-ratio: 1/1;
     border: 1px solid #000;
     border-radius: 1em;
 }
@@ -114,22 +135,40 @@ input:not(:checked) + label > ul { display: none; }
 #map-menu > label > ul > li:nth-child(2)::before { background-color: var(--fill-1); }
 #map-menu > label > ul > li:nth-child(3)::before { background-color: var(--fill-2); }
 #map-menu > label > ul > li:nth-child(4)::before { background-color: var(--fill-3); }
+#map-menu > label > ul > li:last-child::before { background-color: var(--nuca); }
 
-/* MAPA DE IES */
+/* MAPA DE IES do NuCa */
 
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="0"] {
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="0"] {
     --fill: var(--fill-0);
 }
 
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="1"],
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="2"],
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="3"] {
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="1"],
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="2"],
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="3"] {
     fill: var(--fill-1);
 }
 
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="4"],
-#map-menu:has(#input-IES:checked) ~ svg path[data-ies="5"] {
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="4"],
+#map-menu:has(#input-IES:checked) ~ #nuca path[data-ies="5"] {
     fill: var(--fill-2);
+}
+
+/* MAPA DE IES da FEJESP */
+
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="0"] {
+    fill-opacity: 0;
+}
+
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="1"],
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="2"],
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="3"] {
+    fill-opacity: 0.25;
+}
+
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="4"],
+#map-menu:has(#input-IES:checked) ~ #fejesp path[data-ies="5"] {
+    fill-opacity: 0.5;
 }
 
 /* MAPA DE AGENTES */
@@ -150,26 +189,24 @@ input:not(:checked) + label > ul { display: none; }
 
 /* MAPA DE EJS x IES */
 
-#input-ejs-x-ies:checked + label > ul > li:nth-child(1)::before { background-color: var(--nuca); opacity: 0; }
-#input-ejs-x-ies:checked + label > ul > li:nth-child(2)::before { background-color: var(--nuca); opacity: 0.2; }
-#input-ejs-x-ies:checked + label > ul > li:nth-child(3)::before { background-color: var(--nuca); opacity: 0.4; }
-#input-ejs-x-ies:checked + label > ul > li:nth-child(4)::before { background-color: var(--nuca); opacity: 0.6; }
-#input-ejs-x-ies:checked + label > ul > li:nth-child(5)::before { background-color: var(--nuca); opacity: 0.8; }
-#input-ejs-x-ies:checked + label > ul > li:nth-child(6)::before { background-color: var(--nuca); opacity: 1; }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(1)::before { background-color: var(--fill-1); }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(2)::before { background-color: var(--nuca-2); }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(3)::before { background-color: var(--nuca-4); }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(4)::before { background-color: var(--nuca-6); }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(5)::before { background-color: var(--nuca-8); }
+#input-ejs-x-ies:checked + label > ul > li:nth-child(6)::before { background-color: var(--nuca); }
 
 #map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ies="0"] {
     display: none; 
 }
 
-#map-menu:has(#input-ejs-x-ies:checked) ~ svg path {
-    --fill: inherit;
-}
-
-#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0"] {
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0"],
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg:has(path:hover) path[data-ejs-x-ies="0"]:not(:hover) {
     fill-opacity: 0;
 }
 
-#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,2"] {
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="0,2"],
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg:has(path:hover) path:not(:hover) {
     fill-opacity: 0.2;
 }
 
@@ -185,6 +222,7 @@ input:not(:checked) + label > ul { display: none; }
     fill-opacity: 0.8;
 }
 
-#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="1"] {
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path[data-ejs-x-ies="1"],
+#map-menu:has(#input-ejs-x-ies:checked) ~ svg path:hover {
     fill-opacity: 1;
 }

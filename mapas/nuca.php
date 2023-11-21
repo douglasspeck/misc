@@ -27,8 +27,8 @@
                 <ul>
                     <li>Não possui agentes parceiros</li>
                     <li>1-2 agentes parceiros</li>
-                    <li>3-4 IES</li>
-                    <li>5+ IES</li>
+                    <li>3-4 agentes parceiros</li>
+                    <li>5+ agentes parceiros</li>
                 </ul>
             </label>
             <input type="radio" name="menu" id="input-ejs-x-ies">
@@ -43,8 +43,10 @@
                     <li>0.8 - 1.0</li>
                 </ul>
             </label>
+            <button onclick="export_StyledSVG(document.getElementById('nuca'));">Exportar</button>
         </section>
         <?php echo(file_get_contents("../assets/img/nuca.svg")) ?>
     </main>
+    <script src="/assets/js/maps.js"></script>
 </body>
 </html>
